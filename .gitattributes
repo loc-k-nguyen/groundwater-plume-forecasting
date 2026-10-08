@@ -1,0 +1,4 @@
+# Preserve audited file bytes, including original line endings and SHA-256 records.
+* -text
+*.pdf binary
+*.png binary

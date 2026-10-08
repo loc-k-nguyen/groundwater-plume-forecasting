@@ -1,0 +1,46 @@
+{
+  "model": "last_observation",
+  "seed": 0,
+  "cache": "prediction_cache/last_observation/seed_0/test_future_predictions.npz",
+  "n_samples": 170,
+  "n_frames": 1700,
+  "global_ssim": {
+    "mean": 0.8495655542284339,
+    "median": 0.8433938513329471,
+    "p90": 0.9822777118334243,
+    "p95": 0.9914164500033764
+  },
+  "plume_ssim": {
+    "mean": 0.7445015151909895,
+    "median": 0.7314642773904558,
+    "p90": 0.9695499579376563,
+    "p95": 0.9799903275366489
+  },
+  "centroid_error_px": {
+    "mean": 34.94853092462458,
+    "median": 31.831312764397715,
+    "p90": 68.89523082680626,
+    "p95": 80.878695309798
+  },
+  "valid_only_centroid_error_px": {
+    "mean": 34.94853092462458,
+    "median": 31.831312764397715,
+    "p90": 68.89523082680626,
+    "p95": 80.878695309798
+  },
+  "mass_proxy_error": {
+    "mean": 7612.47123851103,
+    "median": 4860.080322265625,
+    "p90": 10973.865625000011,
+    "p95": 11760.182275390625
+  },
+  "pred_plume_miss_rate": 0.0,
+  "gt_plume_invalid_rate": 0.0,
+  "thresholds": {
+    "data_range": 14.0,
+    "plume_thresh": 1e-08,
+    "plume_pad": 8,
+    "plume_min_pixels": 64,
+    "eps_c": 1e-12
+  }
+}

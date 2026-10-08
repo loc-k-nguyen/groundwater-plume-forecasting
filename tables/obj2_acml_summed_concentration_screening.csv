@@ -1,0 +1,4 @@
+variant,n_seeds,seeds,unscreened_mean,unscreened_std,cell_screened_mean,cell_screened_std,realization_screened_mean,realization_screened_std,snapshot24_unscreened,snapshot24_screened,snapshot23_unscreened,snapshot23_screened
+ta_anp_no_k,10,0;1;2;3;4;5;6;7;8;9,4263.7,113.6557,1810.78,112.6734,1814.65,113.3423,27879.5,3435.1,3104.9,3037.0
+ta_anp_full,10,0;1;2;3;4;5;6;7;8;9,4440.59,324.162,1988.78,320.5572,1990.92,321.9882,28918.2,4485.1,3433.2,3370.8
+ta_anp_full_film,10,0;1;2;3;4;5;6;7;8;9,4455.84,329.0389,1999.9,327.7894,2003.96,328.4471,28490.0,4030.3,3712.2,3634.2

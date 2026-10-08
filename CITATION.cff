@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "Cite this software snapshot and the associated manuscript; update publication metadata after formal acceptance."
+type: software
+title: "Groundwater plume forecasting with TA-ANP"
+authors:
+  - family-names: "Nguyen"
+    given-names: "Loc K."
+repository-code: "https://github.com/LocNguyen122/groundwater-plume-forecasting"
+license: MIT
+abstract: "Paper-scoped forecasting code, lightweight numerical evidence, and CPU verification. The associated ACML 2026 Journal Track manuscript is conditionally accepted; formal journal acceptance and publication metadata remain pending."
+preferred-citation:
+  type: unpublished
+  title: "Observation-Conditioned Temporal Attentive Neural Processes for Long-Horizon Groundwater Plume Forecasting"
+  authors:
+    - family-names: "Nguyen"
+      given-names: "Loc K."
+    - family-names: "Nguyen"
+      given-names: "Binh P."
+  year: 2026
+  notes: "Conditionally accepted to the ACML 2026 Journal Track. Formal Machine Learning acceptance follows the required presentation and final-manuscript process."

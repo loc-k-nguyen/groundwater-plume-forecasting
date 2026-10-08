@@ -1,0 +1,104 @@
+{
+  "1.01": {
+    "train": {
+      "realizations": 20,
+      "target_snapshots": 17,
+      "context_snapshots": 3
+    },
+    "val": {
+      "realizations": 3,
+      "target_snapshots": 3,
+      "context_snapshots": 1
+    },
+    "test": {
+      "realizations": 2,
+      "target_snapshots": 2,
+      "context_snapshots": 0
+    }
+  },
+  "1.1": {
+    "train": {
+      "realizations": 19,
+      "target_snapshots": 17,
+      "context_snapshots": 2
+    },
+    "val": {
+      "realizations": 3,
+      "target_snapshots": 3,
+      "context_snapshots": 1
+    },
+    "test": {
+      "realizations": 2,
+      "target_snapshots": 2,
+      "context_snapshots": 0
+    }
+  },
+  "2.0": {
+    "train": {
+      "realizations": 17,
+      "target_snapshots": 16,
+      "context_snapshots": 1
+    },
+    "val": {
+      "realizations": 3,
+      "target_snapshots": 3,
+      "context_snapshots": 1
+    },
+    "test": {
+      "realizations": 2,
+      "target_snapshots": 2,
+      "context_snapshots": 0
+    }
+  },
+  "5.0": {
+    "train": {
+      "realizations": 15,
+      "target_snapshots": 14,
+      "context_snapshots": 1
+    },
+    "val": {
+      "realizations": 3,
+      "target_snapshots": 3,
+      "context_snapshots": 1
+    },
+    "test": {
+      "realizations": 2,
+      "target_snapshots": 2,
+      "context_snapshots": 0
+    }
+  },
+  "10.0": {
+    "train": {
+      "realizations": 12,
+      "target_snapshots": 11,
+      "context_snapshots": 1
+    },
+    "val": {
+      "realizations": 2,
+      "target_snapshots": 3,
+      "context_snapshots": 0
+    },
+    "test": {
+      "realizations": 2,
+      "target_snapshots": 2,
+      "context_snapshots": 0
+    }
+  },
+  "20.0": {
+    "train": {
+      "realizations": 11,
+      "target_snapshots": 10,
+      "context_snapshots": 1
+    },
+    "val": {
+      "realizations": 2,
+      "target_snapshots": 3,
+      "context_snapshots": 0
+    },
+    "test": {
+      "realizations": 2,
+      "target_snapshots": 2,
+      "context_snapshots": 0
+    }
+  }
+}

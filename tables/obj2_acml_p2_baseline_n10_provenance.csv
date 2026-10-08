@@ -1,0 +1,31 @@
+method,seed,path,n_test_files,patch,stride,time_encoding,use_logK
+DyDiff (guided diffusion),0,experiments\obj2\journal\runs\dydiff\seed0\obj2_jnl_dydiff_extrap_seed0\metrics_future.json,170,320,160,linear,True
+DyDiff (guided diffusion),1,experiments\obj2\journal\runs\dydiff\seed1\obj2_jnl_dydiff_extrap_seed1\metrics_future.json,170,320,160,linear,True
+DyDiff (guided diffusion),2,experiments\obj2\journal\runs\dydiff\seed2\obj2_jnl_dydiff_extrap_seed2\metrics_future.json,170,320,160,linear,True
+DyDiff (guided diffusion),3,experiments\obj2\journal\runs\dydiff\seed3\obj2_jnl_dydiff_extrap_seed3\metrics_future.json,170,320,160,linear,True
+DyDiff (guided diffusion),4,experiments\obj2\journal\runs\dydiff\seed4\obj2_jnl_dydiff_extrap_seed4\metrics_future.json,170,320,160,linear,True
+DyDiff (guided diffusion),5,experiments\obj2\journal\runs\dydiff\seed5\obj2_jnl_dydiff_extrap_seed5\metrics_future.json,170,320,160,linear,True
+DyDiff (guided diffusion),6,experiments\obj2\journal\runs\dydiff\seed6\obj2_jnl_dydiff_extrap_seed6\metrics_future.json,170,320,160,linear,True
+DyDiff (guided diffusion),7,experiments\obj2\journal\runs\dydiff\seed7\obj2_jnl_dydiff_extrap_seed7\metrics_future.json,170,320,160,linear,True
+DyDiff (guided diffusion),8,experiments\obj2\journal\runs\dydiff\seed8\obj2_jnl_dydiff_extrap_seed8\metrics_future.json,170,320,160,linear,True
+DyDiff (guided diffusion),9,experiments\obj2\journal\runs\dydiff\seed9\obj2_jnl_dydiff_extrap_seed9\metrics_future.json,170,320,160,linear,True
+cCGAN (gamma=0.5),0,experiments\obj2\journal\runs\ccgan_gan0p5\seed0\obj2_jnl_ccgan_gan0p5_extrap_seed0\metrics_future.json,170,320,160,linear,True
+cCGAN (gamma=0.5),1,experiments\obj2\journal\runs\ccgan_gan0p5\seed1\obj2_jnl_ccgan_gan0p5_extrap_seed1\metrics_future.json,170,320,160,linear,True
+cCGAN (gamma=0.5),2,experiments\obj2\journal\runs\ccgan_gan0p5\seed2\obj2_jnl_ccgan_gan0p5_extrap_seed2\metrics_future.json,170,320,160,linear,True
+cCGAN (gamma=0.5),3,experiments\obj2\journal\runs\ccgan_gan0p5\seed3\obj2_jnl_ccgan_gan0p5_extrap_seed3\metrics_future.json,170,320,160,linear,True
+cCGAN (gamma=0.5),4,experiments\obj2\journal\runs\ccgan_gan0p5\seed4\obj2_jnl_ccgan_gan0p5_extrap_seed4\metrics_future.json,170,320,160,linear,True
+cCGAN (gamma=0.5),5,experiments\obj2\journal\runs\ccgan_gan0p5\seed5\obj2_jnl_ccgan_gan0p5_extrap_seed5\metrics_future.json,170,320,160,linear,True
+cCGAN (gamma=0.5),6,experiments\obj2\journal\runs\ccgan_gan0p5\seed6\obj2_jnl_ccgan_gan0p5_extrap_seed6\metrics_future.json,170,320,160,linear,True
+cCGAN (gamma=0.5),7,experiments\obj2\journal\runs\ccgan_gan0p5\seed7\obj2_jnl_ccgan_gan0p5_extrap_seed7\metrics_future.json,170,320,160,linear,True
+cCGAN (gamma=0.5),8,experiments\obj2\journal\runs\ccgan_gan0p5\seed8\obj2_jnl_ccgan_gan0p5_extrap_seed8\metrics_future.json,170,320,160,linear,True
+cCGAN (gamma=0.5),9,experiments\obj2\journal\runs\ccgan_gan0p5\seed9\obj2_jnl_ccgan_gan0p5_extrap_seed9\metrics_future.json,170,320,160,linear,True
+cCGAN (gamma=0.25),0,experiments\obj2\journal\runs\ccgan_gan0p25\seed0\obj2_jnl_ccgan_gan0p25_extrap_seed0\metrics_future.json,170,320,160,linear,True
+cCGAN (gamma=0.25),1,experiments\obj2\journal\runs\ccgan_gan0p25\seed1\obj2_jnl_ccgan_gan0p25_extrap_seed1\metrics_future.json,170,320,160,linear,True
+cCGAN (gamma=0.25),2,experiments\obj2\journal\runs\ccgan_gan0p25\seed2\obj2_jnl_ccgan_gan0p25_extrap_seed2\metrics_future.json,170,320,160,linear,True
+cCGAN (gamma=0.25),3,experiments\obj2\journal\runs\ccgan_gan0p25\seed3\obj2_jnl_ccgan_gan0p25_extrap_seed3\metrics_future.json,170,320,160,linear,True
+cCGAN (gamma=0.25),4,experiments\obj2\journal\runs\ccgan_gan0p25\seed4\obj2_jnl_ccgan_gan0p25_extrap_seed4\metrics_future.json,170,320,160,linear,True
+cCGAN (gamma=0.25),5,experiments\obj2\journal\runs\ccgan_gan0p25\seed5\obj2_jnl_ccgan_gan0p25_extrap_seed5\metrics_future.json,170,320,160,linear,True
+cCGAN (gamma=0.25),6,experiments\obj2\journal\runs\ccgan_gan0p25\seed6\obj2_jnl_ccgan_gan0p25_extrap_seed6\metrics_future.json,170,320,160,linear,True
+cCGAN (gamma=0.25),7,experiments\obj2\journal\runs\ccgan_gan0p25\seed7\obj2_jnl_ccgan_gan0p25_extrap_seed7\metrics_future.json,170,320,160,linear,True
+cCGAN (gamma=0.25),8,experiments\obj2\journal\runs\ccgan_gan0p25\seed8\obj2_jnl_ccgan_gan0p25_extrap_seed8\metrics_future.json,170,320,160,linear,True
+cCGAN (gamma=0.25),9,experiments\obj2\journal\runs\ccgan_gan0p25\seed9\obj2_jnl_ccgan_gan0p25_extrap_seed9\metrics_future.json,170,320,160,linear,True

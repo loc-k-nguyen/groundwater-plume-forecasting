@@ -1,0 +1,2 @@
+benchmark,seed,device_used,cuda_device_name,n_samples_timed,n_forward_calls,n_warmup,n_timed,parameter_count,forward_ms_per_sample_mean,forward_s_per_sample_std,throughput_samples_per_s,estimated_forward_s_for_170_test_samples,peak_gpu_memory_mb,checkpoint
+ta_anp_no_k_forward_inference,0,cuda,NVIDIA A100-PCIE-40GB,170,510,1,3,107233,19.36937028715643,0.00012384896723317064,51.62790453043725,3.292792948816593,5506.0546875,experiments/obj2/journal/runs/ta_anp_no_k/seed0/obj2_jnl_ta_anp_no_k_extrap_seed0/checkpoint_best.pt

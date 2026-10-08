@@ -1,0 +1,139 @@
+{
+  "train": {
+    "flagged_target_snapshots": 11,
+    "flagged_context_snapshots": 1,
+    "anomalous_target_pixels": 534473,
+    "anomalous_context_pixels": 5654,
+    "supervised_target_pixels": 1344000000,
+    "pixel_share": 0.0003976733630952381
+  },
+  "val": {
+    "flagged_val_snapshots": 3,
+    "val_files": 2,
+    "runs": [
+      {
+        "variant": "ta_anp_no_k",
+        "seed": 0,
+        "selection_score_shift": 4.532389342784882e-05,
+        "selection_margin": 0.0012332877516746388
+      },
+      {
+        "variant": "ta_anp_no_k",
+        "seed": 1,
+        "selection_score_shift": 4.460800439119339e-05,
+        "selection_margin": 6.551727652548411e-05
+      },
+      {
+        "variant": "ta_anp_no_k",
+        "seed": 2,
+        "selection_score_shift": 4.51703742146492e-05,
+        "selection_margin": 0.0003266849741339062
+      },
+      {
+        "variant": "ta_anp_no_k",
+        "seed": 3,
+        "selection_score_shift": 4.605613648891449e-05,
+        "selection_margin": 0.0015371014922856974
+      },
+      {
+        "variant": "ta_anp_no_k",
+        "seed": 4,
+        "selection_score_shift": 4.7610960900783536e-05,
+        "selection_margin": 0.0004150855913758189
+      },
+      {
+        "variant": "ta_anp_no_k",
+        "seed": 5,
+        "selection_score_shift": 4.612769931554794e-05,
+        "selection_margin": 0.00027146067470318336
+      },
+      {
+        "variant": "ta_anp_no_k",
+        "seed": 6,
+        "selection_score_shift": 3.970395773649216e-05,
+        "selection_margin": 0.0014109228178859068
+      },
+      {
+        "variant": "ta_anp_no_k",
+        "seed": 7,
+        "selection_score_shift": 4.684019833803177e-05,
+        "selection_margin": 0.00011965718120332536
+      },
+      {
+        "variant": "ta_anp_no_k",
+        "seed": 8,
+        "selection_score_shift": 4.349537193775177e-05,
+        "selection_margin": 1.0139755904692294e-05
+      },
+      {
+        "variant": "ta_anp_no_k",
+        "seed": 9,
+        "selection_score_shift": 4.291117191314697e-05,
+        "selection_margin": 0.002181582301855167
+      },
+      {
+        "variant": "ta_anp_full",
+        "seed": 0,
+        "selection_score_shift": 4.219360649585724e-05,
+        "selection_margin": 0.00033259563148013704
+      },
+      {
+        "variant": "ta_anp_full",
+        "seed": 1,
+        "selection_score_shift": 4.4362880289554595e-05,
+        "selection_margin": 0.0005865331739186574
+      },
+      {
+        "variant": "ta_anp_full",
+        "seed": 2,
+        "selection_score_shift": 4.600454121828079e-05,
+        "selection_margin": 0.0024975846707820937
+      },
+      {
+        "variant": "ta_anp_full",
+        "seed": 3,
+        "selection_score_shift": 4.936181008815765e-05,
+        "selection_margin": 0.0011397070437669798
+      },
+      {
+        "variant": "ta_anp_full",
+        "seed": 4,
+        "selection_score_shift": 4.4233687222003935e-05,
+        "selection_margin": 3.618229180579746e-05
+      },
+      {
+        "variant": "ta_anp_full",
+        "seed": 5,
+        "selection_score_shift": 4.2014196515083314e-05,
+        "selection_margin": 0.00033240888267760393
+      },
+      {
+        "variant": "ta_anp_full",
+        "seed": 6,
+        "selection_score_shift": 4.923518747091293e-05,
+        "selection_margin": 0.00042033135890950923
+      },
+      {
+        "variant": "ta_anp_full",
+        "seed": 7,
+        "selection_score_shift": 4.90487739443779e-05,
+        "selection_margin": 0.00018534198403352686
+      },
+      {
+        "variant": "ta_anp_full",
+        "seed": 8,
+        "selection_score_shift": 4.7623179852962494e-05,
+        "selection_margin": 0.0009397118538618798
+      },
+      {
+        "variant": "ta_anp_full",
+        "seed": 9,
+        "selection_score_shift": 4.5636333525180816e-05,
+        "selection_margin": 0.0012573925033211308
+      }
+    ],
+    "max_abs_shift": 4.936181008815765e-05,
+    "min_margin": 1.0139755904692294e-05,
+    "runs_where_shift_below_margin": 18
+  }
+}

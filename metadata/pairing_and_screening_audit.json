@@ -1,0 +1,2734 @@
+{
+  "description": "Audit records behind Supplementary Section S6 (archived pairing) and Supplementary Section S7 (anomalous-reference screening) of the revised manuscript.",
+  "pairing_audit": [
+    {
+      "K_sha256": "b514bb00b2d071c39dd7fa672ef37c60fe56327a66a4b0fd08a18b7d66e7354c",
+      "C_sha256": "64c7098a2bd3d4932390d8d118b2db999572b38b425fe69dbd59ecb60a40e56e",
+      "times": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        10,
+        14,
+        15,
+        20,
+        30,
+        40,
+        50,
+        60,
+        75,
+        90,
+        100,
+        120,
+        150,
+        180,
+        210,
+        240,
+        270,
+        300,
+        365
+      ],
+      "stages": [
+        {
+          "stage": 1,
+          "days": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "RK_Field_1.dat": {
+            "hash_flipped": "b514bb00b2d071c39dd7fa672ef37c60fe56327a66a4b0fd08a18b7d66e7354c",
+            "equals_stored_K": true
+          },
+          "RK_Field_2.dat": {
+            "hash_flipped": "73805bfb87b1a48310824eb5eab06b1cf23593004446be7eeb6d7d7c0e34efff",
+            "equals_stored_K": false
+          },
+          "randf._kx": {
+            "hash_flipped": "73805bfb87b1a48310824eb5eab06b1cf23593004446be7eeb6d7d7c0e34efff",
+            "equals_stored_K": false
+          },
+          "ucn": [
+            {
+              "times": [
+                0.0,
+                1.0,
+                2.0,
+                3.0,
+                4.0,
+                365.0
+              ],
+              "matches": [
+                {
+                  "day": 1,
+                  "equal": false,
+                  "max_abs_difference": 0.01685410737991333,
+                  "ucn_flipped_hash": "d569f03c5662b5b35bfe1bf1a2ee6d9408dc3045eb5e90b17ccf5ac33598089c",
+                  "target_hash": "2611b51aba3514d7360e702facfeafc2919d09618506d05d4088e316672e4ef0"
+                },
+                {
+                  "day": 2,
+                  "equal": false,
+                  "max_abs_difference": 0.03312191367149353,
+                  "ucn_flipped_hash": "998091c790b85b6e112bc9f3c7832276a46ef858ff99d5e57088721c0173dbbb",
+                  "target_hash": "2a1d23a466f9e1d38504d1e9016115f9da8ac9d3c3c18ae5419b55a0f5f1b0c6"
+                },
+                {
+                  "day": 3,
+                  "equal": false,
+                  "max_abs_difference": 0.04851849377155304,
+                  "ucn_flipped_hash": "4f943221e0ea5e100f1bbf4b11816c1b1bc724458714d34bbd3a127f7517f2e3",
+                  "target_hash": "a4963040b6cc869d1e85e5f026c12d963879d91b29919f565e4ae3d90f3f69f2"
+                },
+                {
+                  "day": 4,
+                  "equal": false,
+                  "max_abs_difference": 0.060490354895591736,
+                  "ucn_flipped_hash": "962695e7ce259a6a942176dde21ecda21ad0ac6e0f62dbc805fcb1aa775856a7",
+                  "target_hash": "d659e64bff4ba5b8f271ebc8fff0c8bea58a27d339854f4f4f1239c7dbb7dd3f"
+                }
+              ]
+            },
+            {
+              "times": [
+                0.0,
+                1.0,
+                2.0,
+                3.0,
+                4.0,
+                365.0
+              ],
+              "matches": [
+                {
+                  "day": 1,
+                  "equal": true,
+                  "max_abs_difference": 0.0,
+                  "ucn_flipped_hash": "2611b51aba3514d7360e702facfeafc2919d09618506d05d4088e316672e4ef0",
+                  "target_hash": "2611b51aba3514d7360e702facfeafc2919d09618506d05d4088e316672e4ef0"
+                },
+                {
+                  "day": 2,
+                  "equal": true,
+                  "max_abs_difference": 0.0,
+                  "ucn_flipped_hash": "2a1d23a466f9e1d38504d1e9016115f9da8ac9d3c3c18ae5419b55a0f5f1b0c6",
+                  "target_hash": "2a1d23a466f9e1d38504d1e9016115f9da8ac9d3c3c18ae5419b55a0f5f1b0c6"
+                },
+                {
+                  "day": 3,
+                  "equal": true,
+                  "max_abs_difference": 0.0,
+                  "ucn_flipped_hash": "a4963040b6cc869d1e85e5f026c12d963879d91b29919f565e4ae3d90f3f69f2",
+                  "target_hash": "a4963040b6cc869d1e85e5f026c12d963879d91b29919f565e4ae3d90f3f69f2"
+                },
+                {
+                  "day": 4,
+                  "equal": true,
+                  "max_abs_difference": 0.0,
+                  "ucn_flipped_hash": "d659e64bff4ba5b8f271ebc8fff0c8bea58a27d339854f4f4f1239c7dbb7dd3f",
+                  "target_hash": "d659e64bff4ba5b8f271ebc8fff0c8bea58a27d339854f4f4f1239c7dbb7dd3f"
+                }
+              ]
+            }
+          ],
+          "parameters": {
+            "Anisotropy": "5.0",
+            "Correlation length (lambda)": "500.0",
+            "Log variance": "1.0",
+            "Longitudinal dispersivity": "6.2",
+            "Transverse/longitudinal dispersivity ratio": "1.0"
+          }
+        },
+        {
+          "stage": 2,
+          "days": [
+            5,
+            7,
+            10,
+            14
+          ],
+          "RK_Field_1.dat": {
+            "hash_flipped": "b514bb00b2d071c39dd7fa672ef37c60fe56327a66a4b0fd08a18b7d66e7354c",
+            "equals_stored_K": true
+          },
+          "RK_Field_2.dat": {
+            "hash_flipped": "73805bfb87b1a48310824eb5eab06b1cf23593004446be7eeb6d7d7c0e34efff",
+            "equals_stored_K": false
+          },
+          "randf._kx": {
+            "hash_flipped": "73805bfb87b1a48310824eb5eab06b1cf23593004446be7eeb6d7d7c0e34efff",
+            "equals_stored_K": false
+          },
+          "ucn": [
+            {
+              "times": [
+                0.0,
+                5.0,
+                7.0,
+                10.0,
+                14.0,
+                365.0
+              ],
+              "matches": [
+                {
+                  "day": 5,
+                  "equal": false,
+                  "max_abs_difference": 0.06465710699558258,
+                  "ucn_flipped_hash": "735bb3d8bfdcb13c4da0a66802e09c4bfaa49c50cfb51530894692d694c384be",
+                  "target_hash": "692c5a0df6706a88083dd3fda9d0c321c1435de1c84e8e0b1bf9a968359ce376"
+                },
+                {
+                  "day": 7,
+                  "equal": false,
+                  "max_abs_difference": 0.08867920935153961,
+                  "ucn_flipped_hash": "0c8010484206d2b006e8efbe7bbfd22a46420f8d5911a9ba5638086b797ff898",
+                  "target_hash": "303842d0da53e3a75dce01aa1694c7c204b299fa540866d48019a48e2e877986"
+                },
+                {
+                  "day": 10,
+                  "equal": false,
+                  "max_abs_difference": 0.12596330046653748,
+                  "ucn_flipped_hash": "1866f65592bc880ab97a89e6596db84bb6e9b2b975a19d05cfa926b806845fd6",
+                  "target_hash": "52f3a26a81ca1611b7199278f15616a92d21e707f550ac73820c417b20d5f241"
+                },
+                {
+                  "day": 14,
+                  "equal": false,
+                  "max_abs_difference": 0.17791026830673218,
+                  "ucn_flipped_hash": "e26ad69c019d2252efda7370cfe0e7fa2668acd29d45e17fe996369ac9d51863",
+                  "target_hash": "d3849fe8fda5d4396f7cc739b1c429ddfb4e07cee58d32c895570da6463e02bd"
+                }
+              ]
+            },
+            {
+              "times": [
+                0.0,
+                5.0,
+                7.0,
+                10.0,
+                14.0,
+                365.0
+              ],
+              "matches": [
+                {
+                  "day": 5,
+                  "equal": true,
+                  "max_abs_difference": 0.0,
+                  "ucn_flipped_hash": "692c5a0df6706a88083dd3fda9d0c321c1435de1c84e8e0b1bf9a968359ce376",
+                  "target_hash": "692c5a0df6706a88083dd3fda9d0c321c1435de1c84e8e0b1bf9a968359ce376"
+                },
+                {
+                  "day": 7,
+                  "equal": true,
+                  "max_abs_difference": 0.0,
+                  "ucn_flipped_hash": "303842d0da53e3a75dce01aa1694c7c204b299fa540866d48019a48e2e877986",
+                  "target_hash": "303842d0da53e3a75dce01aa1694c7c204b299fa540866d48019a48e2e877986"
+                },
+                {
+                  "day": 10,
+                  "equal": true,
+                  "max_abs_difference": 0.0,
+                  "ucn_flipped_hash": "52f3a26a81ca1611b7199278f15616a92d21e707f550ac73820c417b20d5f241",
+                  "target_hash": "52f3a26a81ca1611b7199278f15616a92d21e707f550ac73820c417b20d5f241"
+                },
+                {
+                  "day": 14,
+                  "equal": true,
+                  "max_abs_difference": 0.0,
+                  "ucn_flipped_hash": "d3849fe8fda5d4396f7cc739b1c429ddfb4e07cee58d32c895570da6463e02bd",
+                  "target_hash": "d3849fe8fda5d4396f7cc739b1c429ddfb4e07cee58d32c895570da6463e02bd"
+                }
+              ]
+            }
+          ],
+          "parameters": {
+            "Anisotropy": "5.0",
+            "Correlation length (lambda)": "500.0",
+            "Log variance": "1.0",
+            "Longitudinal dispersivity": "6.2",
+            "Transverse/longitudinal dispersivity ratio": "1.0"
+          }
+        },
+        {
+          "stage": 3,
+          "days": [
+            15,
+            20,
+            30
+          ],
+          "RK_Field_1.dat": {
+            "hash_flipped": "b514bb00b2d071c39dd7fa672ef37c60fe56327a66a4b0fd08a18b7d66e7354c",
+            "equals_stored_K": true
+          },
+          "RK_Field_2.dat": {
+            "hash_flipped": "73805bfb87b1a48310824eb5eab06b1cf23593004446be7eeb6d7d7c0e34efff",
+            "equals_stored_K": false
+          },
+          "randf._kx": {
+            "hash_flipped": "73805bfb87b1a48310824eb5eab06b1cf23593004446be7eeb6d7d7c0e34efff",
+            "equals_stored_K": false
+          },
+          "ucn": [
+            {
+              "times": [
+                0.0,
+                15.0,
+                20.0,
+                30.0,
+                365.0
+              ],
+              "matches": [
+                {
+                  "day": 15,
+                  "equal": false,
+                  "max_abs_difference": 0.18757003545761108,
+                  "ucn_flipped_hash": "7d52dfaad701a56596418236e468c8136cc69d32b95d9203752ae8175a1db52b",
+                  "target_hash": "dd6d9f6073a741108576fee7b5519ad42d89f46b97044503768176361f4116b9"
+                },
+                {
+                  "day": 20,
+                  "equal": false,
+                  "max_abs_difference": 0.24181321263313293,
+                  "ucn_flipped_hash": "ac3c9aef4a14d0d0134b8cd3eb6fc26578625ca11dc58754bcd6d529bad143cc",
+                  "target_hash": "635854722cc2796869009efbb3a199b3b3a00ba4d76fe25e0537222c0f04ef64"
+                },
+                {
+                  "day": 30,
+                  "equal": false,
+                  "max_abs_difference": 0.3260824680328369,
+                  "ucn_flipped_hash": "b3bd4e7f9e0d4f4c1d852009fc2414162d4193d5482c5d0f43b74d8f16ba9d50",
+                  "target_hash": "572005e3fc3609001c1e088933bf98253ad19982111c26a34c26b991434161fb"
+                }
+              ]
+            },
+            {
+              "times": [
+                0.0,
+                15.0,
+                20.0,
+                30.0,
+                365.0
+              ],
+              "matches": [
+                {
+                  "day": 15,
+                  "equal": true,
+                  "max_abs_difference": 0.0,
+                  "ucn_flipped_hash": "dd6d9f6073a741108576fee7b5519ad42d89f46b97044503768176361f4116b9",
+                  "target_hash": "dd6d9f6073a741108576fee7b5519ad42d89f46b97044503768176361f4116b9"
+                },
+                {
+                  "day": 20,
+                  "equal": true,
+                  "max_abs_difference": 0.0,
+                  "ucn_flipped_hash": "635854722cc2796869009efbb3a199b3b3a00ba4d76fe25e0537222c0f04ef64",
+                  "target_hash": "635854722cc2796869009efbb3a199b3b3a00ba4d76fe25e0537222c0f04ef64"
+                },
+                {
+                  "day": 30,
+                  "equal": true,
+                  "max_abs_difference": 0.0,
+                  "ucn_flipped_hash": "572005e3fc3609001c1e088933bf98253ad19982111c26a34c26b991434161fb",
+                  "target_hash": "572005e3fc3609001c1e088933bf98253ad19982111c26a34c26b991434161fb"
+                }
+              ]
+            }
+          ],
+          "parameters": {
+            "Anisotropy": "5.0",
+            "Correlation length (lambda)": "500.0",
+            "Log variance": "1.0",
+            "Longitudinal dispersivity": "6.2",
+            "Transverse/longitudinal dispersivity ratio": "1.0"
+          }
+        },
+        {
+          "stage": 4,
+          "days": [
+            40,
+            50,
+            60
+          ],
+          "RK_Field_1.dat": {
+            "hash_flipped": "b514bb00b2d071c39dd7fa672ef37c60fe56327a66a4b0fd08a18b7d66e7354c",
+            "equals_stored_K": true
+          },
+          "RK_Field_2.dat": {
+            "hash_flipped": "73805bfb87b1a48310824eb5eab06b1cf23593004446be7eeb6d7d7c0e34efff",
+            "equals_stored_K": false
+          },
+          "randf._kx": {
+            "hash_flipped": "73805bfb87b1a48310824eb5eab06b1cf23593004446be7eeb6d7d7c0e34efff",
+            "equals_stored_K": false
+          },
+          "ucn": [
+            {
+              "times": [
+                0.0,
+                40.0,
+                50.0,
+                60.0,
+                365.0
+              ],
+              "matches": [
+                {
+                  "day": 40,
+                  "equal": false,
+                  "max_abs_difference": 0.3846628665924072,
+                  "ucn_flipped_hash": "9eb621f229f269cef67517b48635b2601386eb5d40a999ac55426a0438a29fae",
+                  "target_hash": "30e6aa5871f534b4d3ebb101748bd2de2be8e6a3a4e2b951ff26628374b575d2"
+                },
+                {
+                  "day": 50,
+                  "equal": false,
+                  "max_abs_difference": 0.4287545084953308,
+                  "ucn_flipped_hash": "34e903b12567d23d711c808606218a285a99d8bcecc67242627d5013165c240e",
+                  "target_hash": "aca7a2e521643f6a306a5b5c5aac8517eb8b5316e4f08f5c41334563623e70d5"
+                },
+                {
+                  "day": 60,
+                  "equal": false,
+                  "max_abs_difference": 0.46359190344810486,
+                  "ucn_flipped_hash": "4fd5efd35330c9b34ae0020554c0d4a01076f6bcd6f785b55b008752152ef1e9",
+                  "target_hash": "0488a1a4c68996f411e95c4793098025f115c9fcbdebc99b331d051ccb26444d"
+                }
+              ]
+            },
+            {
+              "times": [
+                0.0,
+                40.0,
+                50.0,
+                60.0,
+                365.0
+              ],
+              "matches": [
+                {
+                  "day": 40,
+                  "equal": true,
+                  "max_abs_difference": 0.0,
+                  "ucn_flipped_hash": "30e6aa5871f534b4d3ebb101748bd2de2be8e6a3a4e2b951ff26628374b575d2",
+                  "target_hash": "30e6aa5871f534b4d3ebb101748bd2de2be8e6a3a4e2b951ff26628374b575d2"
+                },
+                {
+                  "day": 50,
+                  "equal": true,
+                  "max_abs_difference": 0.0,
+                  "ucn_flipped_hash": "aca7a2e521643f6a306a5b5c5aac8517eb8b5316e4f08f5c41334563623e70d5",
+                  "target_hash": "aca7a2e521643f6a306a5b5c5aac8517eb8b5316e4f08f5c41334563623e70d5"
+                },
+                {
+                  "day": 60,
+                  "equal": true,
+                  "max_abs_difference": 0.0,
+                  "ucn_flipped_hash": "0488a1a4c68996f411e95c4793098025f115c9fcbdebc99b331d051ccb26444d",
+                  "target_hash": "0488a1a4c68996f411e95c4793098025f115c9fcbdebc99b331d051ccb26444d"
+                }
+              ]
+            }
+          ],
+          "parameters": {
+            "Anisotropy": "5.0",
+            "Correlation length (lambda)": "500.0",
+            "Log variance": "1.0",
+            "Longitudinal dispersivity": "6.2",
+            "Transverse/longitudinal dispersivity ratio": "1.0"
+          }
+        },
+        {
+          "stage": 5,
+          "days": [
+            75,
+            90
+          ],
+          "RK_Field_1.dat": {
+            "hash_flipped": "b514bb00b2d071c39dd7fa672ef37c60fe56327a66a4b0fd08a18b7d66e7354c",
+            "equals_stored_K": true
+          },
+          "RK_Field_2.dat": {
+            "hash_flipped": "73805bfb87b1a48310824eb5eab06b1cf23593004446be7eeb6d7d7c0e34efff",
+            "equals_stored_K": false
+          },
+          "randf._kx": {
+            "hash_flipped": "73805bfb87b1a48310824eb5eab06b1cf23593004446be7eeb6d7d7c0e34efff",
+            "equals_stored_K": false
+          },
+          "ucn": [
+            {
+              "times": [
+                0.0,
+                75.0,
+                90.0,
+                365.0
+              ],
+              "matches": [
+                {
+                  "day": 75,
+                  "equal": false,
+                  "max_abs_difference": 0.532189130783081,
+                  "ucn_flipped_hash": "84e2fc8b7023209f1cdc391395a8e9729a1c904a7740e0f4d897e667b57d79b1",
+                  "target_hash": "cbfc03c6bf8a6cf4a2115ae579d7dd7f49e283f33409642d7f66ce73390809d2"
+                },
+                {
+                  "day": 90,
+                  "equal": false,
+                  "max_abs_difference": 0.5823083519935608,
+                  "ucn_flipped_hash": "50ceee1d8c1ac830deca1ae0d83837b3dc1524f4c2a3734253de33deb5f92269",
+                  "target_hash": "f587ebc1ca629e3eecf5d1cc26ded28e532f39631fe830675e82d5e7d3ba7171"
+                }
+              ]
+            },
+            {
+              "times": [
+                0.0,
+                75.0,
+                90.0,
+                365.0
+              ],
+              "matches": [
+                {
+                  "day": 75,
+                  "equal": true,
+                  "max_abs_difference": 0.0,
+                  "ucn_flipped_hash": "cbfc03c6bf8a6cf4a2115ae579d7dd7f49e283f33409642d7f66ce73390809d2",
+                  "target_hash": "cbfc03c6bf8a6cf4a2115ae579d7dd7f49e283f33409642d7f66ce73390809d2"
+                },
+                {
+                  "day": 90,
+                  "equal": true,
+                  "max_abs_difference": 0.0,
+                  "ucn_flipped_hash": "f587ebc1ca629e3eecf5d1cc26ded28e532f39631fe830675e82d5e7d3ba7171",
+                  "target_hash": "f587ebc1ca629e3eecf5d1cc26ded28e532f39631fe830675e82d5e7d3ba7171"
+                }
+              ]
+            }
+          ],
+          "parameters": {
+            "Anisotropy": "5.0",
+            "Correlation length (lambda)": "500.0",
+            "Log variance": "1.0",
+            "Longitudinal dispersivity": "6.2",
+            "Transverse/longitudinal dispersivity ratio": "1.0"
+          }
+        },
+        {
+          "stage": 6,
+          "days": [
+            100,
+            120
+          ],
+          "RK_Field_1.dat": {
+            "hash_flipped": "b514bb00b2d071c39dd7fa672ef37c60fe56327a66a4b0fd08a18b7d66e7354c",
+            "equals_stored_K": true
+          },
+          "RK_Field_2.dat": {
+            "hash_flipped": "73805bfb87b1a48310824eb5eab06b1cf23593004446be7eeb6d7d7c0e34efff",
+            "equals_stored_K": false
+          },
+          "randf._kx": {
+            "hash_flipped": "73805bfb87b1a48310824eb5eab06b1cf23593004446be7eeb6d7d7c0e34efff",
+            "equals_stored_K": false
+          },
+          "ucn": [
+            {
+              "times": [
+                0.0,
+                100.0,
+                120.0,
+                365.0
+              ],
+              "matches": [
+                {
+                  "day": 100,
+                  "equal": false,
+                  "max_abs_difference": 0.6043124198913574,
+                  "ucn_flipped_hash": "5b6624dc074f68c68beea056c9a12ca554e6bf168e6a93cdcbe9dd87293063ac",
+                  "target_hash": "6439f25a550a2c83257db6112e827fba5a3a77086e1ce1f00055c98c2fbf44a9"
+                },
+                {
+                  "day": 120,
+                  "equal": false,
+                  "max_abs_difference": 0.6603588461875916,
+                  "ucn_flipped_hash": "b3e701d4ccad4be37cf4b581fa0331de1868886ce33bbcb773e4b7abc1c014fa",
+                  "target_hash": "95abefb82024d4f9261d3171168e3323a065da7a013bfd9a55fdb58388ed0c50"
+                }
+              ]
+            },
+            {
+              "times": [
+                0.0,
+                100.0,
+                120.0,
+                365.0
+              ],
+              "matches": [
+                {
+                  "day": 100,
+                  "equal": true,
+                  "max_abs_difference": 0.0,
+                  "ucn_flipped_hash": "6439f25a550a2c83257db6112e827fba5a3a77086e1ce1f00055c98c2fbf44a9",
+                  "target_hash": "6439f25a550a2c83257db6112e827fba5a3a77086e1ce1f00055c98c2fbf44a9"
+                },
+                {
+                  "day": 120,
+                  "equal": true,
+                  "max_abs_difference": 0.0,
+                  "ucn_flipped_hash": "95abefb82024d4f9261d3171168e3323a065da7a013bfd9a55fdb58388ed0c50",
+                  "target_hash": "95abefb82024d4f9261d3171168e3323a065da7a013bfd9a55fdb58388ed0c50"
+                }
+              ]
+            }
+          ],
+          "parameters": {
+            "Anisotropy": "5.0",
+            "Correlation length (lambda)": "500.0",
+            "Log variance": "1.0",
+            "Longitudinal dispersivity": "6.2",
+            "Transverse/longitudinal dispersivity ratio": "1.0"
+          }
+        },
+        {
+          "stage": 7,
+          "days": [
+            150,
+            180
+          ],
+          "RK_Field_1.dat": {
+            "hash_flipped": "b514bb00b2d071c39dd7fa672ef37c60fe56327a66a4b0fd08a18b7d66e7354c",
+            "equals_stored_K": true
+          },
+          "RK_Field_2.dat": {
+            "hash_flipped": "73805bfb87b1a48310824eb5eab06b1cf23593004446be7eeb6d7d7c0e34efff",
+            "equals_stored_K": false
+          },
+          "randf._kx": {
+            "hash_flipped": "73805bfb87b1a48310824eb5eab06b1cf23593004446be7eeb6d7d7c0e34efff",
+            "equals_stored_K": false
+          },
+          "ucn": [
+            {
+              "times": [
+                0.0,
+                150.0,
+                180.0,
+                365.0
+              ],
+              "matches": [
+                {
+                  "day": 150,
+                  "equal": false,
+                  "max_abs_difference": 0.7044600248336792,
+                  "ucn_flipped_hash": "1fd74d2895315167de21ecf459d0ded0a290b2be6cb0b90549468faf06c53017",
+                  "target_hash": "7a99ddf999b551bebef3ab97064a43df2b989fc3974820f186a54e38308e6edf"
+                },
+                {
+                  "day": 180,
+                  "equal": false,
+                  "max_abs_difference": 0.7385347485542297,
+                  "ucn_flipped_hash": "f092289df697b8e9c8b6159af16b271560da29bda2ebb69aa70af01b749fef0e",
+                  "target_hash": "c97803e1588858a612d4446ad87c2e5d6aef1dfd4442847c8ba19f679ed04a5e"
+                }
+              ]
+            },
+            {
+              "times": [
+                0.0,
+                150.0,
+                180.0,
+                365.0
+              ],
+              "matches": [
+                {
+                  "day": 150,
+                  "equal": true,
+                  "max_abs_difference": 0.0,
+                  "ucn_flipped_hash": "7a99ddf999b551bebef3ab97064a43df2b989fc3974820f186a54e38308e6edf",
+                  "target_hash": "7a99ddf999b551bebef3ab97064a43df2b989fc3974820f186a54e38308e6edf"
+                },
+                {
+                  "day": 180,
+                  "equal": true,
+                  "max_abs_difference": 0.0,
+                  "ucn_flipped_hash": "c97803e1588858a612d4446ad87c2e5d6aef1dfd4442847c8ba19f679ed04a5e",
+                  "target_hash": "c97803e1588858a612d4446ad87c2e5d6aef1dfd4442847c8ba19f679ed04a5e"
+                }
+              ]
+            }
+          ],
+          "parameters": {
+            "Anisotropy": "5.0",
+            "Correlation length (lambda)": "500.0",
+            "Log variance": "1.0",
+            "Longitudinal dispersivity": "6.2",
+            "Transverse/longitudinal dispersivity ratio": "1.0"
+          }
+        },
+        {
+          "stage": 8,
+          "days": [
+            210,
+            240
+          ],
+          "RK_Field_1.dat": {
+            "hash_flipped": "b514bb00b2d071c39dd7fa672ef37c60fe56327a66a4b0fd08a18b7d66e7354c",
+            "equals_stored_K": true
+          },
+          "RK_Field_2.dat": {
+            "hash_flipped": "73805bfb87b1a48310824eb5eab06b1cf23593004446be7eeb6d7d7c0e34efff",
+            "equals_stored_K": false
+          },
+          "randf._kx": {
+            "hash_flipped": "73805bfb87b1a48310824eb5eab06b1cf23593004446be7eeb6d7d7c0e34efff",
+            "equals_stored_K": false
+          },
+          "ucn": [
+            {
+              "times": [
+                0.0,
+                210.0,
+                240.0,
+                365.0
+              ],
+              "matches": [
+                {
+                  "day": 210,
+                  "equal": false,
+                  "max_abs_difference": 0.7512373328208923,
+                  "ucn_flipped_hash": "398872835cfb7ecce924dade662a35eb3ae7a7633ab3e5400a21f49d6292831f",
+                  "target_hash": "e5b2051613a1384ba184c6afcd697bc1296ab7867bae8d065bb3cd9308169712"
+                },
+                {
+                  "day": 240,
+                  "equal": false,
+                  "max_abs_difference": 0.7582650184631348,
+                  "ucn_flipped_hash": "864dc594ab5ecdcf236503774dab131a2620dede23a5e4f8ce83e2f93c90f485",
+                  "target_hash": "30ef9bf8276382bddb4903d9c8324c32b63da16e6e41562a5826e9e829552a04"
+                }
+              ]
+            },
+            {
+              "times": [
+                0.0,
+                210.0,
+                240.0,
+                365.0
+              ],
+              "matches": [
+                {
+                  "day": 210,
+                  "equal": true,
+                  "max_abs_difference": 0.0,
+                  "ucn_flipped_hash": "e5b2051613a1384ba184c6afcd697bc1296ab7867bae8d065bb3cd9308169712",
+                  "target_hash": "e5b2051613a1384ba184c6afcd697bc1296ab7867bae8d065bb3cd9308169712"
+                },
+                {
+                  "day": 240,
+                  "equal": true,
+                  "max_abs_difference": 0.0,
+                  "ucn_flipped_hash": "30ef9bf8276382bddb4903d9c8324c32b63da16e6e41562a5826e9e829552a04",
+                  "target_hash": "30ef9bf8276382bddb4903d9c8324c32b63da16e6e41562a5826e9e829552a04"
+                }
+              ]
+            }
+          ],
+          "parameters": {
+            "Anisotropy": "5.0",
+            "Correlation length (lambda)": "500.0",
+            "Log variance": "1.0",
+            "Longitudinal dispersivity": "6.2",
+            "Transverse/longitudinal dispersivity ratio": "1.0"
+          }
+        },
+        {
+          "stage": 9,
+          "days": [
+            270,
+            300,
+            365
+          ],
+          "RK_Field_1.dat": {
+            "hash_flipped": "b514bb00b2d071c39dd7fa672ef37c60fe56327a66a4b0fd08a18b7d66e7354c",
+            "equals_stored_K": true
+          },
+          "RK_Field_2.dat": {
+            "hash_flipped": "73805bfb87b1a48310824eb5eab06b1cf23593004446be7eeb6d7d7c0e34efff",
+            "equals_stored_K": false
+          },
+          "randf._kx": {
+            "hash_flipped": "73805bfb87b1a48310824eb5eab06b1cf23593004446be7eeb6d7d7c0e34efff",
+            "equals_stored_K": false
+          },
+          "ucn": [
+            {
+              "times": [
+                0.0,
+                270.0,
+                300.0,
+                365.0
+              ],
+              "matches": [
+                {
+                  "day": 270,
+                  "equal": false,
+                  "max_abs_difference": 0.7487255930900574,
+                  "ucn_flipped_hash": "cb4dd1b39e6cd452403f80551285095543b65d77b74c39f0646e6933f82bb072",
+                  "target_hash": "fd8690c1e2c85649051a39d5f5483dbe2b32fdcb1bd77b4037f1bb35faff1876"
+                },
+                {
+                  "day": 300,
+                  "equal": false,
+                  "max_abs_difference": 0.7359310388565063,
+                  "ucn_flipped_hash": "782fa20c7ade848c6f709e7147a247c32e7c25ec2beca3c22aad11433fbcbe28",
+                  "target_hash": "1ba55273e879f67eb1043ff2104391d5f0d44731b2dd4984ff3ea02a8cb8235c"
+                },
+                {
+                  "day": 365,
+                  "equal": false,
+                  "max_abs_difference": 0.6936931610107422,
+                  "ucn_flipped_hash": "547b3c518be3fcd4c1341968e36e78c7d97a546ec0cf934a0a4c3d2236998b43",
+                  "target_hash": "f1897be6b7c273fce08eaf8f9a527c8d67af4ca70bb445db63fb3e068af21dc3"
+                }
+              ]
+            },
+            {
+              "times": [
+                0.0,
+                270.0,
+                300.0,
+                365.0
+              ],
+              "matches": [
+                {
+                  "day": 270,
+                  "equal": true,
+                  "max_abs_difference": 0.0,
+                  "ucn_flipped_hash": "fd8690c1e2c85649051a39d5f5483dbe2b32fdcb1bd77b4037f1bb35faff1876",
+                  "target_hash": "fd8690c1e2c85649051a39d5f5483dbe2b32fdcb1bd77b4037f1bb35faff1876"
+                },
+                {
+                  "day": 300,
+                  "equal": true,
+                  "max_abs_difference": 0.0,
+                  "ucn_flipped_hash": "1ba55273e879f67eb1043ff2104391d5f0d44731b2dd4984ff3ea02a8cb8235c",
+                  "target_hash": "1ba55273e879f67eb1043ff2104391d5f0d44731b2dd4984ff3ea02a8cb8235c"
+                },
+                {
+                  "day": 365,
+                  "equal": true,
+                  "max_abs_difference": 0.0,
+                  "ucn_flipped_hash": "f1897be6b7c273fce08eaf8f9a527c8d67af4ca70bb445db63fb3e068af21dc3",
+                  "target_hash": "f1897be6b7c273fce08eaf8f9a527c8d67af4ca70bb445db63fb3e068af21dc3"
+                }
+              ]
+            }
+          ],
+          "parameters": {
+            "Anisotropy": "5.0",
+            "Correlation length (lambda)": "500.0",
+            "Log variance": "1.0",
+            "Longitudinal dispersivity": "6.2",
+            "Transverse/longitudinal dispersivity ratio": "1.0"
+          }
+        }
+      ],
+      "matching_concentration_snapshots": 25
+    },
+    {
+      "K_sha256": "2bc6d2dd6d82253dad985e31787d0c43afdfe41e996b5fcd72fb8bdcdca92b93",
+      "C_sha256": "4abbf209f314c74bfa6286328b36d284f76b58d0f0d2860fcd39dd7909884bac",
+      "times": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        10,
+        14,
+        15,
+        20,
+        30,
+        40,
+        50,
+        60,
+        75,
+        90,
+        100,
+        120,
+        150,
+        180,
+        210,
+        240,
+        270,
+        300,
+        365
+      ],
+      "stages": [
+        {
+          "stage": 1,
+          "days": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "RK_Field_1.dat": {
+            "hash_flipped": "2bc6d2dd6d82253dad985e31787d0c43afdfe41e996b5fcd72fb8bdcdca92b93",
+            "equals_stored_K": true
+          },
+          "RK_Field_2.dat": {
+            "hash_flipped": "df22e97c8021908d8d5834f4b53ba9350473c71896ca1fee7bce3cfb4f19e398",
+            "equals_stored_K": false
+          },
+          "randf._kx": {
+            "hash_flipped": "df22e97c8021908d8d5834f4b53ba9350473c71896ca1fee7bce3cfb4f19e398",
+            "equals_stored_K": false
+          },
+          "ucn": [
+            {
+              "times": [
+                0.0,
+                1.0,
+                2.0,
+                3.0,
+                4.0,
+                365.0
+              ],
+              "matches": [
+                {
+                  "day": 1,
+                  "equal": false,
+                  "max_abs_difference": 0.04305697977542877,
+                  "ucn_flipped_hash": "abeef632f458413bde4692f6efa66808c49fea5890565c779919541284175158",
+                  "target_hash": "e5787a76da7f383d150d4771c2cd2ac099ddd308ab32d4ba4ffdb94987da4e32"
+                },
+                {
+                  "day": 2,
+                  "equal": false,
+                  "max_abs_difference": 0.08590508997440338,
+                  "ucn_flipped_hash": "877325c73bddf86f5e8017dcdb0b9dea19b69169f10c3f6b44f37e91f6cd9d01",
+                  "target_hash": "5acf01a0ce39dad42c7a48b4c495898ee1be0cff39b59a31ced8e03b1358ca68"
+                },
+                {
+                  "day": 3,
+                  "equal": false,
+                  "max_abs_difference": 0.11681681871414185,
+                  "ucn_flipped_hash": "44dcb3a13e8ee51c5572c16399b0015eb749242d9124a2df9b8e3da71c244171",
+                  "target_hash": "9fff8192eb1954ff633bf4cfccff11142e9d0fa09a12a7c0b0b37482873c4f3d"
+                },
+                {
+                  "day": 4,
+                  "equal": false,
+                  "max_abs_difference": 0.1378927230834961,
+                  "ucn_flipped_hash": "b0bd018c274485c80276fe95e4f70a48f69455a780bc1d0d3887c60df1202200",
+                  "target_hash": "060611faf88a5f60084d2bd473fc7cbe2c5f56e9e16eccac3c78ca5180f313ff"
+                }
+              ]
+            },
+            {
+              "times": [
+                0.0,
+                1.0,
+                2.0,
+                3.0,
+                4.0,
+                365.0
+              ],
+              "matches": [
+                {
+                  "day": 1,
+                  "equal": true,
+                  "max_abs_difference": 0.0,
+                  "ucn_flipped_hash": "e5787a76da7f383d150d4771c2cd2ac099ddd308ab32d4ba4ffdb94987da4e32",
+                  "target_hash": "e5787a76da7f383d150d4771c2cd2ac099ddd308ab32d4ba4ffdb94987da4e32"
+                },
+                {
+                  "day": 2,
+                  "equal": true,
+                  "max_abs_difference": 0.0,
+                  "ucn_flipped_hash": "5acf01a0ce39dad42c7a48b4c495898ee1be0cff39b59a31ced8e03b1358ca68",
+                  "target_hash": "5acf01a0ce39dad42c7a48b4c495898ee1be0cff39b59a31ced8e03b1358ca68"
+                },
+                {
+                  "day": 3,
+                  "equal": true,
+                  "max_abs_difference": 0.0,
+                  "ucn_flipped_hash": "9fff8192eb1954ff633bf4cfccff11142e9d0fa09a12a7c0b0b37482873c4f3d",
+                  "target_hash": "9fff8192eb1954ff633bf4cfccff11142e9d0fa09a12a7c0b0b37482873c4f3d"
+                },
+                {
+                  "day": 4,
+                  "equal": true,
+                  "max_abs_difference": 0.0,
+                  "ucn_flipped_hash": "060611faf88a5f60084d2bd473fc7cbe2c5f56e9e16eccac3c78ca5180f313ff",
+                  "target_hash": "060611faf88a5f60084d2bd473fc7cbe2c5f56e9e16eccac3c78ca5180f313ff"
+                }
+              ]
+            }
+          ],
+          "parameters": {
+            "Anisotropy": "10.0",
+            "Correlation length (lambda)": "500.0",
+            "Log variance": "2.0",
+            "Longitudinal dispersivity": "62.0",
+            "Transverse/longitudinal dispersivity ratio": "1.0"
+          }
+        },
+        {
+          "stage": 2,
+          "days": [
+            5,
+            7,
+            10,
+            14
+          ],
+          "RK_Field_1.dat": {
+            "hash_flipped": "2bc6d2dd6d82253dad985e31787d0c43afdfe41e996b5fcd72fb8bdcdca92b93",
+            "equals_stored_K": true
+          },
+          "RK_Field_2.dat": {
+            "hash_flipped": "df22e97c8021908d8d5834f4b53ba9350473c71896ca1fee7bce3cfb4f19e398",
+            "equals_stored_K": false
+          },
+          "randf._kx": {
+            "hash_flipped": "df22e97c8021908d8d5834f4b53ba9350473c71896ca1fee7bce3cfb4f19e398",
+            "equals_stored_K": false
+          },
+          "ucn": [
+            {
+              "times": [
+                0.0,
+                5.0,
+                7.0,
+                10.0,
+                14.0,
+                365.0
+              ],
+              "matches": [
+                {
+                  "day": 5,
+                  "equal": false,
+                  "max_abs_difference": 0.14403675496578217,
+                  "ucn_flipped_hash": "a55101eb1242b18487eafe2a8af1464d54fb02efa087603afe59dc114736dece",
+                  "target_hash": "d6305cc6c2ced64f24d93442055429ed7c87ecaef028f7d09bbe8effc40ea9ce"
+                },
+                {
+                  "day": 7,
+                  "equal": false,
+                  "max_abs_difference": 0.16638468205928802,
+                  "ucn_flipped_hash": "2f874a376de268b810b943d1aac39e38f8bc63ce8e83c1bb2f67cc4f05eed858",
+                  "target_hash": "289f6e35c24f1bc229f6b7e7b9ec3d6a70beb12c208531558887b22f3811dd5a"
+                },
+                {
+                  "day": 10,
+                  "equal": false,
+                  "max_abs_difference": 0.1922285407781601,
+                  "ucn_flipped_hash": "34e780a4da2a92e0208cb288c7457c069e60d88b442de5e22f7a059d649e5856",
+                  "target_hash": "e344a2841197d85e9b0d432c2a8aa046ef572ef134690af822db732f998e501c"
+                },
+                {
+                  "day": 14,
+                  "equal": false,
+                  "max_abs_difference": 0.2136942744255066,
+                  "ucn_flipped_hash": "90b2073c6146a0dc1ffdeea46b7fa7515d4224ba9e9ca17cca428874f2d91e62",
+                  "target_hash": "bafb05be9f1be423ab6f89354d6bd0450287d9538ccc39b70a67d8883a1e515d"
+                }
+              ]
+            },
+            {
+              "times": [
+                0.0,
+                5.0,
+                7.0,
+                10.0,
+                14.0,
+                365.0
+              ],
+              "matches": [
+                {
+                  "day": 5,
+                  "equal": true,
+                  "max_abs_difference": 0.0,
+                  "ucn_flipped_hash": "d6305cc6c2ced64f24d93442055429ed7c87ecaef028f7d09bbe8effc40ea9ce",
+                  "target_hash": "d6305cc6c2ced64f24d93442055429ed7c87ecaef028f7d09bbe8effc40ea9ce"
+                },
+                {
+                  "day": 7,
+                  "equal": true,
+                  "max_abs_difference": 0.0,
+                  "ucn_flipped_hash": "289f6e35c24f1bc229f6b7e7b9ec3d6a70beb12c208531558887b22f3811dd5a",
+                  "target_hash": "289f6e35c24f1bc229f6b7e7b9ec3d6a70beb12c208531558887b22f3811dd5a"
+                },
+                {
+                  "day": 10,
+                  "equal": true,
+                  "max_abs_difference": 0.0,
+                  "ucn_flipped_hash": "e344a2841197d85e9b0d432c2a8aa046ef572ef134690af822db732f998e501c",
+                  "target_hash": "e344a2841197d85e9b0d432c2a8aa046ef572ef134690af822db732f998e501c"
+                },
+                {
+                  "day": 14,
+                  "equal": true,
+                  "max_abs_difference": 0.0,
+                  "ucn_flipped_hash": "bafb05be9f1be423ab6f89354d6bd0450287d9538ccc39b70a67d8883a1e515d",
+                  "target_hash": "bafb05be9f1be423ab6f89354d6bd0450287d9538ccc39b70a67d8883a1e515d"
+                }
+              ]
+            }
+          ],
+          "parameters": {
+            "Anisotropy": "10.0",
+            "Correlation length (lambda)": "500.0",
+            "Log variance": "2.0",
+            "Longitudinal dispersivity": "62.0",
+            "Transverse/longitudinal dispersivity ratio": "1.0"
+          }
+        },
+        {
+          "stage": 3,
+          "days": [
+            15,
+            20,
+            30
+          ],
+          "RK_Field_1.dat": {
+            "hash_flipped": "2bc6d2dd6d82253dad985e31787d0c43afdfe41e996b5fcd72fb8bdcdca92b93",
+            "equals_stored_K": true
+          },
+          "RK_Field_2.dat": {
+            "hash_flipped": "df22e97c8021908d8d5834f4b53ba9350473c71896ca1fee7bce3cfb4f19e398",
+            "equals_stored_K": false
+          },
+          "randf._kx": {
+            "hash_flipped": "df22e97c8021908d8d5834f4b53ba9350473c71896ca1fee7bce3cfb4f19e398",
+            "equals_stored_K": false
+          },
+          "ucn": [
+            {
+              "times": [
+                0.0,
+                15.0,
+                20.0,
+                30.0,
+                365.0
+              ],
+              "matches": [
+                {
+                  "day": 15,
+                  "equal": false,
+                  "max_abs_difference": 0.21665990352630615,
+                  "ucn_flipped_hash": "3250ba2a4ce3131abae5a4c8466322f01020ccb827ea6bdf4f314ee6053c0379",
+                  "target_hash": "4487714bb4f8b55fd6a11c897fc94bd62cbf0013dfb4074585705dfdba06df82"
+                },
+                {
+                  "day": 20,
+                  "equal": false,
+                  "max_abs_difference": 0.2358662635087967,
+                  "ucn_flipped_hash": "5328f90a7ba94ee6a53f84fa771e24c0249a843c9bdd660d8d0c9ef3bb3c8506",
+                  "target_hash": "c88919186f4a7f6d89d1061a7d86ad7f2606b93ec4e77484c63c3c4bccd90df3"
+                },
+                {
+                  "day": 30,
+                  "equal": false,
+                  "max_abs_difference": 0.2631567120552063,
+                  "ucn_flipped_hash": "a4f6e44c6d3329f6f58b856defd878b5392ed8aca05fd68408e20ebb133ab11a",
+                  "target_hash": "1b4ef4a9c9cab13f84a0478deab806128cba40e889183d75c68f8cf687a49a3f"
+                }
+              ]
+            },
+            {
+              "times": [
+                0.0,
+                15.0,
+                20.0,
+                30.0,
+                365.0
+              ],
+              "matches": [
+                {
+                  "day": 15,
+                  "equal": true,
+                  "max_abs_difference": 0.0,
+                  "ucn_flipped_hash": "4487714bb4f8b55fd6a11c897fc94bd62cbf0013dfb4074585705dfdba06df82",
+                  "target_hash": "4487714bb4f8b55fd6a11c897fc94bd62cbf0013dfb4074585705dfdba06df82"
+                },
+                {
+                  "day": 20,
+                  "equal": true,
+                  "max_abs_difference": 0.0,
+                  "ucn_flipped_hash": "c88919186f4a7f6d89d1061a7d86ad7f2606b93ec4e77484c63c3c4bccd90df3",
+                  "target_hash": "c88919186f4a7f6d89d1061a7d86ad7f2606b93ec4e77484c63c3c4bccd90df3"
+                },
+                {
+                  "day": 30,
+                  "equal": true,
+                  "max_abs_difference": 0.0,
+                  "ucn_flipped_hash": "1b4ef4a9c9cab13f84a0478deab806128cba40e889183d75c68f8cf687a49a3f",
+                  "target_hash": "1b4ef4a9c9cab13f84a0478deab806128cba40e889183d75c68f8cf687a49a3f"
+                }
+              ]
+            }
+          ],
+          "parameters": {
+            "Anisotropy": "10.0",
+            "Correlation length (lambda)": "500.0",
+            "Log variance": "2.0",
+            "Longitudinal dispersivity": "62.0",
+            "Transverse/longitudinal dispersivity ratio": "1.0"
+          }
+        },
+        {
+          "stage": 4,
+          "days": [
+            40,
+            50,
+            60
+          ],
+          "RK_Field_1.dat": {
+            "hash_flipped": "2bc6d2dd6d82253dad985e31787d0c43afdfe41e996b5fcd72fb8bdcdca92b93",
+            "equals_stored_K": true
+          },
+          "RK_Field_2.dat": {
+            "hash_flipped": "df22e97c8021908d8d5834f4b53ba9350473c71896ca1fee7bce3cfb4f19e398",
+            "equals_stored_K": false
+          },
+          "randf._kx": {
+            "hash_flipped": "df22e97c8021908d8d5834f4b53ba9350473c71896ca1fee7bce3cfb4f19e398",
+            "equals_stored_K": false
+          },
+          "ucn": [
+            {
+              "times": [
+                0.0,
+                40.0,
+                50.0,
+                60.0,
+                365.0
+              ],
+              "matches": [
+                {
+                  "day": 40,
+                  "equal": false,
+                  "max_abs_difference": 0.27694177627563477,
+                  "ucn_flipped_hash": "53e867c4a5d9f9110e34733b059df37189eeb710dc87bac9fab513027963deb6",
+                  "target_hash": "ecaa52979baaa137ee8212d947977a1008309b9ec98a62d9087d5fcace4502d1"
+                },
+                {
+                  "day": 50,
+                  "equal": false,
+                  "max_abs_difference": 0.2855072319507599,
+                  "ucn_flipped_hash": "02a1f922f17981b48b497853a0948c47c38973ff77adab4ab27387b8930b17e8",
+                  "target_hash": "4f80c31b9c2316c42deb21a29e7aea0be61b8635b1d56a041ad59d09ca8b0054"
+                },
+                {
+                  "day": 60,
+                  "equal": false,
+                  "max_abs_difference": 0.29173022508621216,
+                  "ucn_flipped_hash": "886ddd667d3447bf82c0a84df64f9301c566c5983c2d187ef19ca35ae28b0d74",
+                  "target_hash": "af0d168343df31ade2b743b9319745751e0062a8aa1781398428141b4af97ea1"
+                }
+              ]
+            },
+            {
+              "times": [
+                0.0,
+                40.0,
+                50.0,
+                60.0,
+                365.0
+              ],
+              "matches": [
+                {
+                  "day": 40,
+                  "equal": true,
+                  "max_abs_difference": 0.0,
+                  "ucn_flipped_hash": "ecaa52979baaa137ee8212d947977a1008309b9ec98a62d9087d5fcace4502d1",
+                  "target_hash": "ecaa52979baaa137ee8212d947977a1008309b9ec98a62d9087d5fcace4502d1"
+                },
+                {
+                  "day": 50,
+                  "equal": true,
+                  "max_abs_difference": 0.0,
+                  "ucn_flipped_hash": "4f80c31b9c2316c42deb21a29e7aea0be61b8635b1d56a041ad59d09ca8b0054",
+                  "target_hash": "4f80c31b9c2316c42deb21a29e7aea0be61b8635b1d56a041ad59d09ca8b0054"
+                },
+                {
+                  "day": 60,
+                  "equal": true,
+                  "max_abs_difference": 0.0,
+                  "ucn_flipped_hash": "af0d168343df31ade2b743b9319745751e0062a8aa1781398428141b4af97ea1",
+                  "target_hash": "af0d168343df31ade2b743b9319745751e0062a8aa1781398428141b4af97ea1"
+                }
+              ]
+            }
+          ],
+          "parameters": {
+            "Anisotropy": "10.0",
+            "Correlation length (lambda)": "500.0",
+            "Log variance": "2.0",
+            "Longitudinal dispersivity": "62.0",
+            "Transverse/longitudinal dispersivity ratio": "1.0"
+          }
+        },
+        {
+          "stage": 5,
+          "days": [
+            75,
+            90
+          ],
+          "RK_Field_1.dat": {
+            "hash_flipped": "2bc6d2dd6d82253dad985e31787d0c43afdfe41e996b5fcd72fb8bdcdca92b93",
+            "equals_stored_K": true
+          },
+          "RK_Field_2.dat": {
+            "hash_flipped": "df22e97c8021908d8d5834f4b53ba9350473c71896ca1fee7bce3cfb4f19e398",
+            "equals_stored_K": false
+          },
+          "randf._kx": {
+            "hash_flipped": "df22e97c8021908d8d5834f4b53ba9350473c71896ca1fee7bce3cfb4f19e398",
+            "equals_stored_K": false
+          },
+          "ucn": [
+            {
+              "times": [
+                0.0,
+                75.0,
+                90.0,
+                365.0
+              ],
+              "matches": [
+                {
+                  "day": 75,
+                  "equal": false,
+                  "max_abs_difference": 0.29821428656578064,
+                  "ucn_flipped_hash": "21d1be8f7f85370d229e19305d900840c10b9dd5e415cf1df07b62567e944c02",
+                  "target_hash": "e08a4673b8329b56eb2ab1ce62a18c7b384df04e36276e537479d2f7f0d518b5"
+                },
+                {
+                  "day": 90,
+                  "equal": false,
+                  "max_abs_difference": 0.3028923571109772,
+                  "ucn_flipped_hash": "c3baa0f1e1b99068c6ad1b78139ed2560ac893a80e347b90e05a5eeecf1057a9",
+                  "target_hash": "aa3c9f17b47791632436406d8f932b4fbe94bc5fedc53165aed8636d7749c3bc"
+                }
+              ]
+            },
+            {
+              "times": [
+                0.0,
+                75.0,
+                90.0,
+                365.0
+              ],
+              "matches": [
+                {
+                  "day": 75,
+                  "equal": true,
+                  "max_abs_difference": 0.0,
+                  "ucn_flipped_hash": "e08a4673b8329b56eb2ab1ce62a18c7b384df04e36276e537479d2f7f0d518b5",
+                  "target_hash": "e08a4673b8329b56eb2ab1ce62a18c7b384df04e36276e537479d2f7f0d518b5"
+                },
+                {
+                  "day": 90,
+                  "equal": true,
+                  "max_abs_difference": 0.0,
+                  "ucn_flipped_hash": "aa3c9f17b47791632436406d8f932b4fbe94bc5fedc53165aed8636d7749c3bc",
+                  "target_hash": "aa3c9f17b47791632436406d8f932b4fbe94bc5fedc53165aed8636d7749c3bc"
+                }
+              ]
+            }
+          ],
+          "parameters": {
+            "Anisotropy": "10.0",
+            "Correlation length (lambda)": "500.0",
+            "Log variance": "2.0",
+            "Longitudinal dispersivity": "62.0",
+            "Transverse/longitudinal dispersivity ratio": "1.0"
+          }
+        },
+        {
+          "stage": 6,
+          "days": [
+            100,
+            120
+          ],
+          "RK_Field_1.dat": {
+            "hash_flipped": "2bc6d2dd6d82253dad985e31787d0c43afdfe41e996b5fcd72fb8bdcdca92b93",
+            "equals_stored_K": true
+          },
+          "RK_Field_2.dat": {
+            "hash_flipped": "df22e97c8021908d8d5834f4b53ba9350473c71896ca1fee7bce3cfb4f19e398",
+            "equals_stored_K": false
+          },
+          "randf._kx": {
+            "hash_flipped": "df22e97c8021908d8d5834f4b53ba9350473c71896ca1fee7bce3cfb4f19e398",
+            "equals_stored_K": false
+          },
+          "ucn": [
+            {
+              "times": [
+                0.0,
+                100.0,
+                120.0,
+                365.0
+              ],
+              "matches": [
+                {
+                  "day": 100,
+                  "equal": false,
+                  "max_abs_difference": 0.3049679696559906,
+                  "ucn_flipped_hash": "ece4b16003e0a6f3037ab641392f3b76dae146424579ad72276d72495fcbe325",
+                  "target_hash": "d8e59e2f0907de380264bd6f8fe3abfefa1aa9ca58738d3ab536583576362ad3"
+                },
+                {
+                  "day": 120,
+                  "equal": false,
+                  "max_abs_difference": 0.30781805515289307,
+                  "ucn_flipped_hash": "2d4abd9d834a92666eec86ce4b636b17f09579340e4c6f2946068d8fc8941456",
+                  "target_hash": "fe9e85ec41b90e07686be9c119f1fef864683faaf0bcf9c1420a347a0ca06b6c"
+                }
+              ]
+            },
+            {
+              "times": [
+                0.0,
+                100.0,
+                120.0,
+                365.0
+              ],
+              "matches": [
+                {
+                  "day": 100,
+                  "equal": true,
+                  "max_abs_difference": 0.0,
+                  "ucn_flipped_hash": "d8e59e2f0907de380264bd6f8fe3abfefa1aa9ca58738d3ab536583576362ad3",
+                  "target_hash": "d8e59e2f0907de380264bd6f8fe3abfefa1aa9ca58738d3ab536583576362ad3"
+                },
+                {
+                  "day": 120,
+                  "equal": true,
+                  "max_abs_difference": 0.0,
+                  "ucn_flipped_hash": "fe9e85ec41b90e07686be9c119f1fef864683faaf0bcf9c1420a347a0ca06b6c",
+                  "target_hash": "fe9e85ec41b90e07686be9c119f1fef864683faaf0bcf9c1420a347a0ca06b6c"
+                }
+              ]
+            }
+          ],
+          "parameters": {
+            "Anisotropy": "10.0",
+            "Correlation length (lambda)": "500.0",
+            "Log variance": "2.0",
+            "Longitudinal dispersivity": "62.0",
+            "Transverse/longitudinal dispersivity ratio": "1.0"
+          }
+        },
+        {
+          "stage": 7,
+          "days": [
+            150,
+            180
+          ],
+          "RK_Field_1.dat": {
+            "hash_flipped": "2bc6d2dd6d82253dad985e31787d0c43afdfe41e996b5fcd72fb8bdcdca92b93",
+            "equals_stored_K": true
+          },
+          "RK_Field_2.dat": {
+            "hash_flipped": "df22e97c8021908d8d5834f4b53ba9350473c71896ca1fee7bce3cfb4f19e398",
+            "equals_stored_K": false
+          },
+          "randf._kx": {
+            "hash_flipped": "df22e97c8021908d8d5834f4b53ba9350473c71896ca1fee7bce3cfb4f19e398",
+            "equals_stored_K": false
+          },
+          "ucn": [
+            {
+              "times": [
+                0.0,
+                150.0,
+                180.0,
+                365.0
+              ],
+              "matches": [
+                {
+                  "day": 150,
+                  "equal": false,
+                  "max_abs_difference": 0.31011587381362915,
+                  "ucn_flipped_hash": "4f6ba927fb9c260b22db770a89e12f0939b4cd434c3fadb68cefdb163be3212c",
+                  "target_hash": "e2d5a65e93d458a713037c0688bad76712036ffcbd6d04485ca7ad6c8ce8c9c0"
+                },
+                {
+                  "day": 180,
+                  "equal": false,
+                  "max_abs_difference": 0.3113277852535248,
+                  "ucn_flipped_hash": "e6d930d1d181be3291cd3d0547f26f9cfb421bef6efb72b4de4f29bac55efc44",
+                  "target_hash": "bd2784aa65e49bebe3e1fb963d9c0b789a15cbda5fd84cfcc69ebcc2e9c5ced6"
+                }
+              ]
+            },
+            {
+              "times": [
+                0.0,
+                150.0,
+                180.0
+              ],
+              "matches": [
+                {
+                  "day": 150,
+                  "equal": true,
+                  "max_abs_difference": 0.0,
+                  "ucn_flipped_hash": "e2d5a65e93d458a713037c0688bad76712036ffcbd6d04485ca7ad6c8ce8c9c0",
+                  "target_hash": "e2d5a65e93d458a713037c0688bad76712036ffcbd6d04485ca7ad6c8ce8c9c0"
+                },
+                {
+                  "day": 180,
+                  "equal": true,
+                  "max_abs_difference": 0.0,
+                  "ucn_flipped_hash": "bd2784aa65e49bebe3e1fb963d9c0b789a15cbda5fd84cfcc69ebcc2e9c5ced6",
+                  "target_hash": "bd2784aa65e49bebe3e1fb963d9c0b789a15cbda5fd84cfcc69ebcc2e9c5ced6"
+                }
+              ]
+            }
+          ],
+          "parameters": {
+            "Anisotropy": "10.0",
+            "Correlation length (lambda)": "500.0",
+            "Log variance": "2.0",
+            "Longitudinal dispersivity": "62.0",
+            "Transverse/longitudinal dispersivity ratio": "1.0"
+          }
+        },
+        {
+          "stage": 8,
+          "days": [
+            210,
+            240
+          ],
+          "RK_Field_1.dat": {
+            "hash_flipped": "2bc6d2dd6d82253dad985e31787d0c43afdfe41e996b5fcd72fb8bdcdca92b93",
+            "equals_stored_K": true
+          },
+          "RK_Field_2.dat": {
+            "hash_flipped": "df22e97c8021908d8d5834f4b53ba9350473c71896ca1fee7bce3cfb4f19e398",
+            "equals_stored_K": false
+          },
+          "randf._kx": {
+            "hash_flipped": "df22e97c8021908d8d5834f4b53ba9350473c71896ca1fee7bce3cfb4f19e398",
+            "equals_stored_K": false
+          },
+          "ucn": [
+            {
+              "times": [
+                0.0,
+                210.0,
+                240.0,
+                365.0
+              ],
+              "matches": [
+                {
+                  "day": 210,
+                  "equal": false,
+                  "max_abs_difference": 0.31195008754730225,
+                  "ucn_flipped_hash": "f6d6ff70f5dcea8ab880c750a69a12dea9345775faab1e5b9b04e2a7041866c5",
+                  "target_hash": "2195dbcc22736195ca6fe3079367f79c69f49dafc852792a4ee4de0addce2f9d"
+                },
+                {
+                  "day": 240,
+                  "equal": false,
+                  "max_abs_difference": 0.3123350739479065,
+                  "ucn_flipped_hash": "cf23580fb046893abf586da19b5d652e274ec14cc6585dd1aac88383601475a0",
+                  "target_hash": "a29221c50e623272966726c9de59ed88ac11eeb4e939810934ce4393c270a58c"
+                }
+              ]
+            },
+            {
+              "times": [
+                0.0,
+                210.0,
+                240.0,
+                365.0
+              ],
+              "matches": [
+                {
+                  "day": 210,
+                  "equal": true,
+                  "max_abs_difference": 0.0,
+                  "ucn_flipped_hash": "2195dbcc22736195ca6fe3079367f79c69f49dafc852792a4ee4de0addce2f9d",
+                  "target_hash": "2195dbcc22736195ca6fe3079367f79c69f49dafc852792a4ee4de0addce2f9d"
+                },
+                {
+                  "day": 240,
+                  "equal": true,
+                  "max_abs_difference": 0.0,
+                  "ucn_flipped_hash": "a29221c50e623272966726c9de59ed88ac11eeb4e939810934ce4393c270a58c",
+                  "target_hash": "a29221c50e623272966726c9de59ed88ac11eeb4e939810934ce4393c270a58c"
+                }
+              ]
+            }
+          ],
+          "parameters": {
+            "Anisotropy": "10.0",
+            "Correlation length (lambda)": "500.0",
+            "Log variance": "2.0",
+            "Longitudinal dispersivity": "62.0",
+            "Transverse/longitudinal dispersivity ratio": "1.0"
+          }
+        },
+        {
+          "stage": 9,
+          "days": [
+            270,
+            300,
+            365
+          ],
+          "RK_Field_1.dat": {
+            "hash_flipped": "2bc6d2dd6d82253dad985e31787d0c43afdfe41e996b5fcd72fb8bdcdca92b93",
+            "equals_stored_K": true
+          },
+          "RK_Field_2.dat": {
+            "hash_flipped": "df22e97c8021908d8d5834f4b53ba9350473c71896ca1fee7bce3cfb4f19e398",
+            "equals_stored_K": false
+          },
+          "randf._kx": {
+            "hash_flipped": "df22e97c8021908d8d5834f4b53ba9350473c71896ca1fee7bce3cfb4f19e398",
+            "equals_stored_K": false
+          },
+          "ucn": [
+            {
+              "times": [
+                0.0,
+                270.0,
+                300.0,
+                365.0
+              ],
+              "matches": [
+                {
+                  "day": 270,
+                  "equal": false,
+                  "max_abs_difference": 0.3125063180923462,
+                  "ucn_flipped_hash": "7e2a39439c186ddae51fb76c89c89c79a83dff7d6c55a74648700f69c521e655",
+                  "target_hash": "20528d7db8e2a91f487c54fdae50d74be3c4f2bf38f8f9797c59b2c3b0915229"
+                },
+                {
+                  "day": 300,
+                  "equal": false,
+                  "max_abs_difference": 0.32803601026535034,
+                  "ucn_flipped_hash": "f36ff096912b71cf40480ea59489044541adf3a2cd019c0d7eab3489ebd43ef6",
+                  "target_hash": "873cbddfbd637928351901fb02480f9a2b4e10a50350dcf5f52e233915ae702a"
+                },
+                {
+                  "day": 365,
+                  "equal": false,
+                  "max_abs_difference": 0.35783475637435913,
+                  "ucn_flipped_hash": "d3312e60a9f87e4016e1386849a0231022e2100a9a8f14fc92a3cdcf5ee3e32c",
+                  "target_hash": "13d14f642222985813982c1a689219f0fcde64dcb9f37ffdb53e15882d9dc5a3"
+                }
+              ]
+            },
+            {
+              "times": [
+                0.0,
+                270.0,
+                300.0,
+                365.0
+              ],
+              "matches": [
+                {
+                  "day": 270,
+                  "equal": true,
+                  "max_abs_difference": 0.0,
+                  "ucn_flipped_hash": "20528d7db8e2a91f487c54fdae50d74be3c4f2bf38f8f9797c59b2c3b0915229",
+                  "target_hash": "20528d7db8e2a91f487c54fdae50d74be3c4f2bf38f8f9797c59b2c3b0915229"
+                },
+                {
+                  "day": 300,
+                  "equal": true,
+                  "max_abs_difference": 0.0,
+                  "ucn_flipped_hash": "873cbddfbd637928351901fb02480f9a2b4e10a50350dcf5f52e233915ae702a",
+                  "target_hash": "873cbddfbd637928351901fb02480f9a2b4e10a50350dcf5f52e233915ae702a"
+                },
+                {
+                  "day": 365,
+                  "equal": true,
+                  "max_abs_difference": 0.0,
+                  "ucn_flipped_hash": "13d14f642222985813982c1a689219f0fcde64dcb9f37ffdb53e15882d9dc5a3",
+                  "target_hash": "13d14f642222985813982c1a689219f0fcde64dcb9f37ffdb53e15882d9dc5a3"
+                }
+              ]
+            }
+          ],
+          "parameters": {
+            "Anisotropy": "10.0",
+            "Correlation length (lambda)": "500.0",
+            "Log variance": "2.0",
+            "Longitudinal dispersivity": "62.0",
+            "Transverse/longitudinal dispersivity ratio": "1.0"
+          }
+        }
+      ],
+      "matching_concentration_snapshots": 25
+    }
+  ],
+  "source_hashes": [
+    {
+      "stage": 1,
+      "sha256": "5770b142932801bf0a095378059b37711e5eed40b66f14e75eee48a8cbd38196"
+    },
+    {
+      "stage": 1,
+      "sha256": "b5854691bc75db0401bb49b90da9208ab8684c2fe695553280f319ad3633eb10"
+    },
+    {
+      "stage": 1,
+      "sha256": "89e8d77d99c41bb459289876a1796ce535a43e0cee9d1567bcf7fb62e3d14103"
+    },
+    {
+      "stage": 1,
+      "sha256": "cd880f6b63f927e6a928e8e660ec3719467629afb2c484a78da84c9875152f91"
+    },
+    {
+      "stage": 1,
+      "sha256": "7b1c0ae678d50a4a170d977b1c4f466c3d6eb84c1dc0f5e6d6f67cbb1b00fb8a"
+    },
+    {
+      "stage": 1,
+      "sha256": "3ed38c471a027eb467ef66b7289274a57dcde87a9233ea0be770d4d4dee229c9"
+    },
+    {
+      "stage": 1,
+      "sha256": "c6ded6309a298bfd1d50f6c59bda4d44ff04526ce82d5b6b28cf252251337160"
+    },
+    {
+      "stage": 2,
+      "sha256": "5770b142932801bf0a095378059b37711e5eed40b66f14e75eee48a8cbd38196"
+    },
+    {
+      "stage": 2,
+      "sha256": "b5854691bc75db0401bb49b90da9208ab8684c2fe695553280f319ad3633eb10"
+    },
+    {
+      "stage": 2,
+      "sha256": "89e8d77d99c41bb459289876a1796ce535a43e0cee9d1567bcf7fb62e3d14103"
+    },
+    {
+      "stage": 2,
+      "sha256": "cd880f6b63f927e6a928e8e660ec3719467629afb2c484a78da84c9875152f91"
+    },
+    {
+      "stage": 2,
+      "sha256": "7b1c0ae678d50a4a170d977b1c4f466c3d6eb84c1dc0f5e6d6f67cbb1b00fb8a"
+    },
+    {
+      "stage": 2,
+      "sha256": "3ed38c471a027eb467ef66b7289274a57dcde87a9233ea0be770d4d4dee229c9"
+    },
+    {
+      "stage": 2,
+      "sha256": "7b21c8d6d7fcf5728a048e748bd8a2f71fc0842e05ac13ea37a81d877a06be00"
+    },
+    {
+      "stage": 3,
+      "sha256": "5770b142932801bf0a095378059b37711e5eed40b66f14e75eee48a8cbd38196"
+    },
+    {
+      "stage": 3,
+      "sha256": "b5854691bc75db0401bb49b90da9208ab8684c2fe695553280f319ad3633eb10"
+    },
+    {
+      "stage": 3,
+      "sha256": "89e8d77d99c41bb459289876a1796ce535a43e0cee9d1567bcf7fb62e3d14103"
+    },
+    {
+      "stage": 3,
+      "sha256": "cd880f6b63f927e6a928e8e660ec3719467629afb2c484a78da84c9875152f91"
+    },
+    {
+      "stage": 3,
+      "sha256": "7b1c0ae678d50a4a170d977b1c4f466c3d6eb84c1dc0f5e6d6f67cbb1b00fb8a"
+    },
+    {
+      "stage": 3,
+      "sha256": "3ed38c471a027eb467ef66b7289274a57dcde87a9233ea0be770d4d4dee229c9"
+    },
+    {
+      "stage": 3,
+      "sha256": "9024fe2add4dd826f1beec078d3181ff6e3f93c64ec7173c2c7feb782dc7ef14"
+    },
+    {
+      "stage": 4,
+      "sha256": "5770b142932801bf0a095378059b37711e5eed40b66f14e75eee48a8cbd38196"
+    },
+    {
+      "stage": 4,
+      "sha256": "b5854691bc75db0401bb49b90da9208ab8684c2fe695553280f319ad3633eb10"
+    },
+    {
+      "stage": 4,
+      "sha256": "89e8d77d99c41bb459289876a1796ce535a43e0cee9d1567bcf7fb62e3d14103"
+    },
+    {
+      "stage": 4,
+      "sha256": "cd880f6b63f927e6a928e8e660ec3719467629afb2c484a78da84c9875152f91"
+    },
+    {
+      "stage": 4,
+      "sha256": "7b1c0ae678d50a4a170d977b1c4f466c3d6eb84c1dc0f5e6d6f67cbb1b00fb8a"
+    },
+    {
+      "stage": 4,
+      "sha256": "3ed38c471a027eb467ef66b7289274a57dcde87a9233ea0be770d4d4dee229c9"
+    },
+    {
+      "stage": 4,
+      "sha256": "5a62bbc1fdbe804f5be81c9fcddb51f81c421e78139369426334aac6339cb88e"
+    },
+    {
+      "stage": 5,
+      "sha256": "5770b142932801bf0a095378059b37711e5eed40b66f14e75eee48a8cbd38196"
+    },
+    {
+      "stage": 5,
+      "sha256": "b5854691bc75db0401bb49b90da9208ab8684c2fe695553280f319ad3633eb10"
+    },
+    {
+      "stage": 5,
+      "sha256": "89e8d77d99c41bb459289876a1796ce535a43e0cee9d1567bcf7fb62e3d14103"
+    },
+    {
+      "stage": 5,
+      "sha256": "cd880f6b63f927e6a928e8e660ec3719467629afb2c484a78da84c9875152f91"
+    },
+    {
+      "stage": 5,
+      "sha256": "7b1c0ae678d50a4a170d977b1c4f466c3d6eb84c1dc0f5e6d6f67cbb1b00fb8a"
+    },
+    {
+      "stage": 5,
+      "sha256": "3ed38c471a027eb467ef66b7289274a57dcde87a9233ea0be770d4d4dee229c9"
+    },
+    {
+      "stage": 5,
+      "sha256": "b1fb3d4950928968c9c2e6b2f32b186f34f8765318e6ff33eacd465528f5e64c"
+    },
+    {
+      "stage": 6,
+      "sha256": "5770b142932801bf0a095378059b37711e5eed40b66f14e75eee48a8cbd38196"
+    },
+    {
+      "stage": 6,
+      "sha256": "b5854691bc75db0401bb49b90da9208ab8684c2fe695553280f319ad3633eb10"
+    },
+    {
+      "stage": 6,
+      "sha256": "89e8d77d99c41bb459289876a1796ce535a43e0cee9d1567bcf7fb62e3d14103"
+    },
+    {
+      "stage": 6,
+      "sha256": "cd880f6b63f927e6a928e8e660ec3719467629afb2c484a78da84c9875152f91"
+    },
+    {
+      "stage": 6,
+      "sha256": "7b1c0ae678d50a4a170d977b1c4f466c3d6eb84c1dc0f5e6d6f67cbb1b00fb8a"
+    },
+    {
+      "stage": 6,
+      "sha256": "3ed38c471a027eb467ef66b7289274a57dcde87a9233ea0be770d4d4dee229c9"
+    },
+    {
+      "stage": 6,
+      "sha256": "a8b7bf02db3cd3ac95e9b2394385f615d35251bbeda5ac9cba9dca09a1ba687f"
+    },
+    {
+      "stage": 7,
+      "sha256": "5770b142932801bf0a095378059b37711e5eed40b66f14e75eee48a8cbd38196"
+    },
+    {
+      "stage": 7,
+      "sha256": "b5854691bc75db0401bb49b90da9208ab8684c2fe695553280f319ad3633eb10"
+    },
+    {
+      "stage": 7,
+      "sha256": "89e8d77d99c41bb459289876a1796ce535a43e0cee9d1567bcf7fb62e3d14103"
+    },
+    {
+      "stage": 7,
+      "sha256": "cd880f6b63f927e6a928e8e660ec3719467629afb2c484a78da84c9875152f91"
+    },
+    {
+      "stage": 7,
+      "sha256": "7b1c0ae678d50a4a170d977b1c4f466c3d6eb84c1dc0f5e6d6f67cbb1b00fb8a"
+    },
+    {
+      "stage": 7,
+      "sha256": "3ed38c471a027eb467ef66b7289274a57dcde87a9233ea0be770d4d4dee229c9"
+    },
+    {
+      "stage": 7,
+      "sha256": "a09881740fc3ae047d07fe33bfaf8053b08779791164a422a0e63a604f17ee62"
+    },
+    {
+      "stage": 8,
+      "sha256": "5770b142932801bf0a095378059b37711e5eed40b66f14e75eee48a8cbd38196"
+    },
+    {
+      "stage": 8,
+      "sha256": "b5854691bc75db0401bb49b90da9208ab8684c2fe695553280f319ad3633eb10"
+    },
+    {
+      "stage": 8,
+      "sha256": "89e8d77d99c41bb459289876a1796ce535a43e0cee9d1567bcf7fb62e3d14103"
+    },
+    {
+      "stage": 8,
+      "sha256": "cd880f6b63f927e6a928e8e660ec3719467629afb2c484a78da84c9875152f91"
+    },
+    {
+      "stage": 8,
+      "sha256": "7b1c0ae678d50a4a170d977b1c4f466c3d6eb84c1dc0f5e6d6f67cbb1b00fb8a"
+    },
+    {
+      "stage": 8,
+      "sha256": "3ed38c471a027eb467ef66b7289274a57dcde87a9233ea0be770d4d4dee229c9"
+    },
+    {
+      "stage": 8,
+      "sha256": "eff0bbbd20f44f3133fe5d84332ee6ab5fac679ca036508f51384875be537169"
+    },
+    {
+      "stage": 9,
+      "sha256": "5770b142932801bf0a095378059b37711e5eed40b66f14e75eee48a8cbd38196"
+    },
+    {
+      "stage": 9,
+      "sha256": "b5854691bc75db0401bb49b90da9208ab8684c2fe695553280f319ad3633eb10"
+    },
+    {
+      "stage": 9,
+      "sha256": "89e8d77d99c41bb459289876a1796ce535a43e0cee9d1567bcf7fb62e3d14103"
+    },
+    {
+      "stage": 9,
+      "sha256": "cd880f6b63f927e6a928e8e660ec3719467629afb2c484a78da84c9875152f91"
+    },
+    {
+      "stage": 9,
+      "sha256": "7b1c0ae678d50a4a170d977b1c4f466c3d6eb84c1dc0f5e6d6f67cbb1b00fb8a"
+    },
+    {
+      "stage": 9,
+      "sha256": "3ed38c471a027eb467ef66b7289274a57dcde87a9233ea0be770d4d4dee229c9"
+    },
+    {
+      "stage": 9,
+      "sha256": "d9e49d29bdc3f757a6e8f085a1ce3e67a0b6ecffa632de38c9ed3239a583865f"
+    },
+    {
+      "stage": 1,
+      "sha256": "5770b142932801bf0a095378059b37711e5eed40b66f14e75eee48a8cbd38196"
+    },
+    {
+      "stage": 1,
+      "sha256": "b5854691bc75db0401bb49b90da9208ab8684c2fe695553280f319ad3633eb10"
+    },
+    {
+      "stage": 1,
+      "sha256": "89e8d77d99c41bb459289876a1796ce535a43e0cee9d1567bcf7fb62e3d14103"
+    },
+    {
+      "stage": 1,
+      "sha256": "cd880f6b63f927e6a928e8e660ec3719467629afb2c484a78da84c9875152f91"
+    },
+    {
+      "stage": 1,
+      "sha256": "7b1c0ae678d50a4a170d977b1c4f466c3d6eb84c1dc0f5e6d6f67cbb1b00fb8a"
+    },
+    {
+      "stage": 1,
+      "sha256": "e089d28d5b470102d461f374ad6dfc69a6448814d091822eb6d28b5f469f697f"
+    },
+    {
+      "stage": 1,
+      "sha256": "539bbc5b4b9f835518a8fca5e87d447047735656fbb2cd7f225a7d3022c37679"
+    },
+    {
+      "stage": 2,
+      "sha256": "5770b142932801bf0a095378059b37711e5eed40b66f14e75eee48a8cbd38196"
+    },
+    {
+      "stage": 2,
+      "sha256": "b5854691bc75db0401bb49b90da9208ab8684c2fe695553280f319ad3633eb10"
+    },
+    {
+      "stage": 2,
+      "sha256": "89e8d77d99c41bb459289876a1796ce535a43e0cee9d1567bcf7fb62e3d14103"
+    },
+    {
+      "stage": 2,
+      "sha256": "cd880f6b63f927e6a928e8e660ec3719467629afb2c484a78da84c9875152f91"
+    },
+    {
+      "stage": 2,
+      "sha256": "7b1c0ae678d50a4a170d977b1c4f466c3d6eb84c1dc0f5e6d6f67cbb1b00fb8a"
+    },
+    {
+      "stage": 2,
+      "sha256": "e089d28d5b470102d461f374ad6dfc69a6448814d091822eb6d28b5f469f697f"
+    },
+    {
+      "stage": 2,
+      "sha256": "eb605074f3eb31b9f2a9e9b092369293139661a81f0aedf93377115bfa17da97"
+    },
+    {
+      "stage": 3,
+      "sha256": "5770b142932801bf0a095378059b37711e5eed40b66f14e75eee48a8cbd38196"
+    },
+    {
+      "stage": 3,
+      "sha256": "b5854691bc75db0401bb49b90da9208ab8684c2fe695553280f319ad3633eb10"
+    },
+    {
+      "stage": 3,
+      "sha256": "89e8d77d99c41bb459289876a1796ce535a43e0cee9d1567bcf7fb62e3d14103"
+    },
+    {
+      "stage": 3,
+      "sha256": "cd880f6b63f927e6a928e8e660ec3719467629afb2c484a78da84c9875152f91"
+    },
+    {
+      "stage": 3,
+      "sha256": "7b1c0ae678d50a4a170d977b1c4f466c3d6eb84c1dc0f5e6d6f67cbb1b00fb8a"
+    },
+    {
+      "stage": 3,
+      "sha256": "e089d28d5b470102d461f374ad6dfc69a6448814d091822eb6d28b5f469f697f"
+    },
+    {
+      "stage": 3,
+      "sha256": "3a0f325084a4776df92f5233d37631aa38daeeda78ae84d9d70bf66572b463f3"
+    },
+    {
+      "stage": 4,
+      "sha256": "5770b142932801bf0a095378059b37711e5eed40b66f14e75eee48a8cbd38196"
+    },
+    {
+      "stage": 4,
+      "sha256": "b5854691bc75db0401bb49b90da9208ab8684c2fe695553280f319ad3633eb10"
+    },
+    {
+      "stage": 4,
+      "sha256": "89e8d77d99c41bb459289876a1796ce535a43e0cee9d1567bcf7fb62e3d14103"
+    },
+    {
+      "stage": 4,
+      "sha256": "cd880f6b63f927e6a928e8e660ec3719467629afb2c484a78da84c9875152f91"
+    },
+    {
+      "stage": 4,
+      "sha256": "7b1c0ae678d50a4a170d977b1c4f466c3d6eb84c1dc0f5e6d6f67cbb1b00fb8a"
+    },
+    {
+      "stage": 4,
+      "sha256": "e089d28d5b470102d461f374ad6dfc69a6448814d091822eb6d28b5f469f697f"
+    },
+    {
+      "stage": 4,
+      "sha256": "4b78947ef337362fd9b93f31fd4dc897ff94da348c1cf57d9997d122f1b427a6"
+    },
+    {
+      "stage": 5,
+      "sha256": "5770b142932801bf0a095378059b37711e5eed40b66f14e75eee48a8cbd38196"
+    },
+    {
+      "stage": 5,
+      "sha256": "b5854691bc75db0401bb49b90da9208ab8684c2fe695553280f319ad3633eb10"
+    },
+    {
+      "stage": 5,
+      "sha256": "89e8d77d99c41bb459289876a1796ce535a43e0cee9d1567bcf7fb62e3d14103"
+    },
+    {
+      "stage": 5,
+      "sha256": "cd880f6b63f927e6a928e8e660ec3719467629afb2c484a78da84c9875152f91"
+    },
+    {
+      "stage": 5,
+      "sha256": "7b1c0ae678d50a4a170d977b1c4f466c3d6eb84c1dc0f5e6d6f67cbb1b00fb8a"
+    },
+    {
+      "stage": 5,
+      "sha256": "e089d28d5b470102d461f374ad6dfc69a6448814d091822eb6d28b5f469f697f"
+    },
+    {
+      "stage": 5,
+      "sha256": "423456054c8f7c8872a7206604715096d8826fda6aa9959d85cf0372770b4344"
+    },
+    {
+      "stage": 6,
+      "sha256": "5770b142932801bf0a095378059b37711e5eed40b66f14e75eee48a8cbd38196"
+    },
+    {
+      "stage": 6,
+      "sha256": "b5854691bc75db0401bb49b90da9208ab8684c2fe695553280f319ad3633eb10"
+    },
+    {
+      "stage": 6,
+      "sha256": "89e8d77d99c41bb459289876a1796ce535a43e0cee9d1567bcf7fb62e3d14103"
+    },
+    {
+      "stage": 6,
+      "sha256": "cd880f6b63f927e6a928e8e660ec3719467629afb2c484a78da84c9875152f91"
+    },
+    {
+      "stage": 6,
+      "sha256": "7b1c0ae678d50a4a170d977b1c4f466c3d6eb84c1dc0f5e6d6f67cbb1b00fb8a"
+    },
+    {
+      "stage": 6,
+      "sha256": "e089d28d5b470102d461f374ad6dfc69a6448814d091822eb6d28b5f469f697f"
+    },
+    {
+      "stage": 6,
+      "sha256": "2c684850a0a18045b603de38d6cf4844e8465a7a7eba939bab927dfd02791e31"
+    },
+    {
+      "stage": 7,
+      "sha256": "5770b142932801bf0a095378059b37711e5eed40b66f14e75eee48a8cbd38196"
+    },
+    {
+      "stage": 7,
+      "sha256": "b5854691bc75db0401bb49b90da9208ab8684c2fe695553280f319ad3633eb10"
+    },
+    {
+      "stage": 7,
+      "sha256": "89e8d77d99c41bb459289876a1796ce535a43e0cee9d1567bcf7fb62e3d14103"
+    },
+    {
+      "stage": 7,
+      "sha256": "cd880f6b63f927e6a928e8e660ec3719467629afb2c484a78da84c9875152f91"
+    },
+    {
+      "stage": 7,
+      "sha256": "7b1c0ae678d50a4a170d977b1c4f466c3d6eb84c1dc0f5e6d6f67cbb1b00fb8a"
+    },
+    {
+      "stage": 7,
+      "sha256": "e089d28d5b470102d461f374ad6dfc69a6448814d091822eb6d28b5f469f697f"
+    },
+    {
+      "stage": 7,
+      "sha256": "8e10db270d1d861c9f02d74a12aee187a580a778d2d68c32b115668da8a8327d"
+    },
+    {
+      "stage": 8,
+      "sha256": "5770b142932801bf0a095378059b37711e5eed40b66f14e75eee48a8cbd38196"
+    },
+    {
+      "stage": 8,
+      "sha256": "b5854691bc75db0401bb49b90da9208ab8684c2fe695553280f319ad3633eb10"
+    },
+    {
+      "stage": 8,
+      "sha256": "89e8d77d99c41bb459289876a1796ce535a43e0cee9d1567bcf7fb62e3d14103"
+    },
+    {
+      "stage": 8,
+      "sha256": "cd880f6b63f927e6a928e8e660ec3719467629afb2c484a78da84c9875152f91"
+    },
+    {
+      "stage": 8,
+      "sha256": "7b1c0ae678d50a4a170d977b1c4f466c3d6eb84c1dc0f5e6d6f67cbb1b00fb8a"
+    },
+    {
+      "stage": 8,
+      "sha256": "e089d28d5b470102d461f374ad6dfc69a6448814d091822eb6d28b5f469f697f"
+    },
+    {
+      "stage": 8,
+      "sha256": "ffe02bc32ba2c4d3bd10945f61593505cd5494ee8125b0cb45cfe035c58a224c"
+    },
+    {
+      "stage": 9,
+      "sha256": "5770b142932801bf0a095378059b37711e5eed40b66f14e75eee48a8cbd38196"
+    },
+    {
+      "stage": 9,
+      "sha256": "b5854691bc75db0401bb49b90da9208ab8684c2fe695553280f319ad3633eb10"
+    },
+    {
+      "stage": 9,
+      "sha256": "89e8d77d99c41bb459289876a1796ce535a43e0cee9d1567bcf7fb62e3d14103"
+    },
+    {
+      "stage": 9,
+      "sha256": "cd880f6b63f927e6a928e8e660ec3719467629afb2c484a78da84c9875152f91"
+    },
+    {
+      "stage": 9,
+      "sha256": "7b1c0ae678d50a4a170d977b1c4f466c3d6eb84c1dc0f5e6d6f67cbb1b00fb8a"
+    },
+    {
+      "stage": 9,
+      "sha256": "e089d28d5b470102d461f374ad6dfc69a6448814d091822eb6d28b5f469f697f"
+    },
+    {
+      "stage": 9,
+      "sha256": "72f5b09589dbc7cb5f9397653f86e860fdc8a33cb1a6ccab2a627f260a053191"
+    }
+  ],
+  "screening": [
+    "variant,regime,n_seeds,plume_ssim_mean,plume_ssim_std,global_ssim_mean,global_ssim_std,centroid_mean,centroid_std,iou_mean,iou_std,dice_mean,dice_std,miss_mean,miss_std,fp_mean,fp_std,fn_mean,fn_std,mass_err_mean,mass_err_std",
+    "ta_anp_no_k,unscreened,10,0.8326,0.0051,0.8943,0.0031,8.6364,1.5223,0.7579,0.0079,0.8508,0.0054,0.2266,0.0095,1701.4368,638.2204,20998.7782,1173.6069,4263.6943,113.661",
+    "ta_anp_no_k,screened,10,0.8331,0.0052,0.8945,0.0031,8.5997,1.5229,0.7583,0.0079,0.8512,0.0054,0.2264,0.0095,1680.8093,638.9537,21004.5806,1174.8655,1810.7877,112.653",
+    "ta_anp_no_k,no_near_duplicate,10,0.832,0.0051,0.894,0.0031,8.6594,1.529,0.7569,0.0079,0.8502,0.0054,0.2277,0.0094,1688.2405,615.2074,21061.1158,1156.7268,4283.7505,112.5829",
+    "ta_anp_no_k,screened_no_near_duplicate,10,0.8324,0.0052,0.8943,0.0031,8.6225,1.5296,0.7573,0.0079,0.8505,0.0054,0.2275,0.0095,1667.4752,615.9166,21067.0264,1157.9707,1816.3362,111.5502",
+    "ta_anp_full,unscreened,10,0.808,0.0077,0.8597,0.0103,9.5864,1.635,0.75,0.0106,0.8447,0.0075,0.2319,0.0127,2453.7404,1084.6725,21120.5017,1053.6173,4440.6075,324.1607",
+    "ta_anp_full,screened,10,0.8085,0.0077,0.86,0.0103,9.5497,1.6356,0.7504,0.0106,0.8451,0.0075,0.2317,0.0127,2426.4774,1064.1502,21126.9023,1054.9251,1988.7769,320.5512",
+    "ta_anp_full,no_near_duplicate,10,0.8071,0.0077,0.8592,0.0104,9.6165,1.6432,0.7489,0.0106,0.844,0.0076,0.233,0.0128,2441.1404,1089.8053,21190.2268,1051.8388,4461.7341,326.8794",
+    "ta_anp_full,screened_no_near_duplicate,10,0.8077,0.0077,0.8595,0.0104,9.5797,1.6438,0.7493,0.0106,0.8443,0.0076,0.2328,0.0128,2413.701,1068.9371,21196.7479,1053.1089,1995.4034,323.2425",
+    "ta_anp_full_film,unscreened,10,0.8216,0.0051,0.8773,0.0076,10.6157,1.3333,0.7665,0.007,0.8567,0.0048,0.2134,0.0099,2052.5331,499.5363,19650.418,1124.0286,4455.8224,329.0455",
+    "ta_anp_full_film,screened,10,0.8221,0.0051,0.8776,0.0076,10.5784,1.3331,0.767,0.007,0.8571,0.0048,0.2132,0.01,2032.2494,500.0461,19654.6352,1125.386,1999.897,327.8063",
+    "ta_anp_full_film,no_near_duplicate,10,0.8209,0.0051,0.877,0.0076,10.6551,1.3375,0.7655,0.007,0.8561,0.0048,0.2144,0.01,2038.6579,488.0588,19721.464,1118.7441,4477.7352,329.1074",
+    "ta_anp_full_film,screened_no_near_duplicate,10,0.8214,0.0051,0.8772,0.0076,10.6176,1.3373,0.7659,0.007,0.8564,0.0048,0.2142,0.01,2018.2376,488.5525,19725.7903,1120.1004,2007.2865,327.8579"
+  ],
+  "threshold_counts": {
+    "1.01": {
+      "train": {
+        "realizations": 20,
+        "target_snapshots": 17,
+        "context_snapshots": 3
+      },
+      "val": {
+        "realizations": 3,
+        "target_snapshots": 3,
+        "context_snapshots": 1
+      },
+      "test": {
+        "realizations": 2,
+        "target_snapshots": 2,
+        "context_snapshots": 0
+      }
+    },
+    "1.1": {
+      "train": {
+        "realizations": 19,
+        "target_snapshots": 17,
+        "context_snapshots": 2
+      },
+      "val": {
+        "realizations": 3,
+        "target_snapshots": 3,
+        "context_snapshots": 1
+      },
+      "test": {
+        "realizations": 2,
+        "target_snapshots": 2,
+        "context_snapshots": 0
+      }
+    },
+    "2.0": {
+      "train": {
+        "realizations": 17,
+        "target_snapshots": 16,
+        "context_snapshots": 1
+      },
+      "val": {
+        "realizations": 3,
+        "target_snapshots": 3,
+        "context_snapshots": 1
+      },
+      "test": {
+        "realizations": 2,
+        "target_snapshots": 2,
+        "context_snapshots": 0
+      }
+    },
+    "5.0": {
+      "train": {
+        "realizations": 15,
+        "target_snapshots": 14,
+        "context_snapshots": 1
+      },
+      "val": {
+        "realizations": 3,
+        "target_snapshots": 3,
+        "context_snapshots": 1
+      },
+      "test": {
+        "realizations": 2,
+        "target_snapshots": 2,
+        "context_snapshots": 0
+      }
+    },
+    "10.0": {
+      "train": {
+        "realizations": 12,
+        "target_snapshots": 11,
+        "context_snapshots": 1
+      },
+      "val": {
+        "realizations": 2,
+        "target_snapshots": 3,
+        "context_snapshots": 0
+      },
+      "test": {
+        "realizations": 2,
+        "target_snapshots": 2,
+        "context_snapshots": 0
+      }
+    },
+    "20.0": {
+      "train": {
+        "realizations": 11,
+        "target_snapshots": 10,
+        "context_snapshots": 1
+      },
+      "val": {
+        "realizations": 2,
+        "target_snapshots": 3,
+        "context_snapshots": 0
+      },
+      "test": {
+        "realizations": 2,
+        "target_snapshots": 2,
+        "context_snapshots": 0
+      }
+    }
+  },
+  "anomaly_exposure": {
+    "train": {
+      "flagged_target_snapshots": 11,
+      "flagged_context_snapshots": 1,
+      "anomalous_target_pixels": 534473,
+      "anomalous_context_pixels": 5654,
+      "supervised_target_pixels": 1344000000,
+      "pixel_share": 0.0003976733630952381
+    },
+    "val_selection": {
+      "flagged_val_snapshots": 3,
+      "val_files": 2,
+      "runs": [
+        {
+          "variant": "ta_anp_no_k",
+          "seed": 0,
+          "selection_score_shift": 4.532389342784882e-05,
+          "selection_margin": 0.0012332877516746388
+        },
+        {
+          "variant": "ta_anp_no_k",
+          "seed": 1,
+          "selection_score_shift": 4.460800439119339e-05,
+          "selection_margin": 6.551727652548411e-05
+        },
+        {
+          "variant": "ta_anp_no_k",
+          "seed": 2,
+          "selection_score_shift": 4.51703742146492e-05,
+          "selection_margin": 0.0003266849741339062
+        },
+        {
+          "variant": "ta_anp_no_k",
+          "seed": 3,
+          "selection_score_shift": 4.605613648891449e-05,
+          "selection_margin": 0.0015371014922856974
+        },
+        {
+          "variant": "ta_anp_no_k",
+          "seed": 4,
+          "selection_score_shift": 4.7610960900783536e-05,
+          "selection_margin": 0.0004150855913758189
+        },
+        {
+          "variant": "ta_anp_no_k",
+          "seed": 5,
+          "selection_score_shift": 4.612769931554794e-05,
+          "selection_margin": 0.00027146067470318336
+        },
+        {
+          "variant": "ta_anp_no_k",
+          "seed": 6,
+          "selection_score_shift": 3.970395773649216e-05,
+          "selection_margin": 0.0014109228178859068
+        },
+        {
+          "variant": "ta_anp_no_k",
+          "seed": 7,
+          "selection_score_shift": 4.684019833803177e-05,
+          "selection_margin": 0.00011965718120332536
+        },
+        {
+          "variant": "ta_anp_no_k",
+          "seed": 8,
+          "selection_score_shift": 4.349537193775177e-05,
+          "selection_margin": 1.0139755904692294e-05
+        },
+        {
+          "variant": "ta_anp_no_k",
+          "seed": 9,
+          "selection_score_shift": 4.291117191314697e-05,
+          "selection_margin": 0.002181582301855167
+        },
+        {
+          "variant": "ta_anp_full",
+          "seed": 0,
+          "selection_score_shift": 4.219360649585724e-05,
+          "selection_margin": 0.00033259563148013704
+        },
+        {
+          "variant": "ta_anp_full",
+          "seed": 1,
+          "selection_score_shift": 4.4362880289554595e-05,
+          "selection_margin": 0.0005865331739186574
+        },
+        {
+          "variant": "ta_anp_full",
+          "seed": 2,
+          "selection_score_shift": 4.600454121828079e-05,
+          "selection_margin": 0.0024975846707820937
+        },
+        {
+          "variant": "ta_anp_full",
+          "seed": 3,
+          "selection_score_shift": 4.936181008815765e-05,
+          "selection_margin": 0.0011397070437669798
+        },
+        {
+          "variant": "ta_anp_full",
+          "seed": 4,
+          "selection_score_shift": 4.4233687222003935e-05,
+          "selection_margin": 3.618229180579746e-05
+        },
+        {
+          "variant": "ta_anp_full",
+          "seed": 5,
+          "selection_score_shift": 4.2014196515083314e-05,
+          "selection_margin": 0.00033240888267760393
+        },
+        {
+          "variant": "ta_anp_full",
+          "seed": 6,
+          "selection_score_shift": 4.923518747091293e-05,
+          "selection_margin": 0.00042033135890950923
+        },
+        {
+          "variant": "ta_anp_full",
+          "seed": 7,
+          "selection_score_shift": 4.90487739443779e-05,
+          "selection_margin": 0.00018534198403352686
+        },
+        {
+          "variant": "ta_anp_full",
+          "seed": 8,
+          "selection_score_shift": 4.7623179852962494e-05,
+          "selection_margin": 0.0009397118538618798
+        },
+        {
+          "variant": "ta_anp_full",
+          "seed": 9,
+          "selection_score_shift": 4.5636333525180816e-05,
+          "selection_margin": 0.0012573925033211308
+        }
+      ],
+      "max_abs_shift": 4.936181008815765e-05,
+      "min_margin": 1.0139755904692294e-05,
+      "runs_where_shift_below_margin": 18
+    }
+  },
+  "threshold_sensitivity_test": {
+    "n_test_snapshots": 1700,
+    "bands": {
+      "max <= 1": 1358,
+      "1 < max <= 10": 340,
+      "max > 10": 2
+    },
+    "largest_maxima": [
+      21157.10017789705,
+      95.23970882390869,
+      1.0013045072060807,
+      1.0013045072060807,
+      1.0013043881680863,
+      1.0013042688617002
+    ],
+    "largest_at_or_below_10": 1.0013045072060807,
+    "variants": {
+      "ta_anp_no_k": {
+        "unscreened": {
+          "mean": 4263.694262615624,
+          "sd": 113.6610137681473
+        },
+        "screen_gt_10": {
+          "mean": 1810.7876651188528,
+          "sd": 112.65299046783308
+        },
+        "screen_gt_1": {
+          "mean": 1752.7933147479719,
+          "sd": 111.77247219407745
+        }
+      },
+      "ta_anp_full": {
+        "unscreened": {
+          "mean": 4440.607483978403,
+          "sd": 324.1607204864841
+        },
+        "screen_gt_10": {
+          "mean": 1988.7768633464173,
+          "sd": 320.5511991132338
+        },
+        "screen_gt_1": {
+          "mean": 1894.179471325217,
+          "sd": 243.7537033000395
+        }
+      },
+      "ta_anp_full_film": {
+        "unscreened": {
+          "mean": 4455.822389486444,
+          "sd": 329.0455426498976
+        },
+        "screen_gt_10": {
+          "mean": 1999.897013509841,
+          "sd": 327.80626957379206
+        },
+        "screen_gt_1": {
+          "mean": 1862.7572678499218,
+          "sd": 305.44256008986173
+        }
+      }
+    }
+  },
+  "grouped_split": {
+    "split": "param_split_grouped_k_v5",
+    "n_test_realizations": 180,
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "note": "noK seed 0 is a clean rerun; the original resumed from a 1-epoch smoke checkpoint",
+    "metrics": {
+      "plume_ssim": {
+        "label": "Plume SSIM",
+        "noK_mean": 0.8302409413557585,
+        "noK_sd": 0.005837704940509617,
+        "full_mean": 0.8029457090340909,
+        "full_sd": 0.008416622755392142,
+        "mean_diff_noK_minus_full": 0.02729523232166762,
+        "seeds_noK_better": 10,
+        "wilcoxon_p": 0.001953125,
+        "paired_t_p": 3.2077149486951182e-06,
+        "d_z": 3.204039944424506,
+        "per_seed_noK": [
+          0.8290469900079175,
+          0.82896971631126,
+          0.8337907826949297,
+          0.8268713703592463,
+          0.8316371105562621,
+          0.8333058283951744,
+          0.8193534185654904,
+          0.8332515767988028,
+          0.8252008671635122,
+          0.8409817527049896
+        ],
+        "per_seed_full": [
+          0.8042992421220287,
+          0.8132271295791358,
+          0.8023617209327092,
+          0.8095484323709371,
+          0.8020045245274047,
+          0.7985011581314184,
+          0.7873361908581483,
+          0.8160451270015441,
+          0.7969310734129972,
+          0.7992024914045853
+        ]
+      },
+      "global_ssim": {
+        "label": "Global SSIM",
+        "noK_mean": 0.8917336416420918,
+        "noK_sd": 0.0037276840483379285,
+        "full_mean": 0.8472324887821958,
+        "full_sd": 0.013280473269383027,
+        "mean_diff_noK_minus_full": 0.04450115285989582,
+        "seeds_noK_better": 10,
+        "wilcoxon_p": 0.001953125,
+        "paired_t_p": 4.161145980721071e-06,
+        "d_z": 3.105380057313676,
+        "per_seed_noK": [
+          0.8885464833318556,
+          0.8940156763737374,
+          0.8959573857529617,
+          0.893923619082574,
+          0.8898854470668327,
+          0.8923784661519876,
+          0.8897233562905182,
+          0.8880369283863874,
+          0.8867539486460585,
+          0.8981151053380043
+        ],
+        "per_seed_full": [
+          0.8468518182455482,
+          0.863886164147931,
+          0.8419895076854265,
+          0.8537062510405988,
+          0.8562446237472051,
+          0.8411638327055703,
+          0.8252097238437611,
+          0.8680962491386016,
+          0.8404243895691522,
+          0.8347523276981643
+        ]
+      },
+      "centroid": {
+        "label": "Centroid (px)",
+        "noK_mean": 10.009070422982678,
+        "noK_sd": 1.7665234934954093,
+        "full_mean": 11.833831507533771,
+        "full_sd": 1.2980696202655124,
+        "mean_diff_noK_minus_full": -1.8247610845510926,
+        "seeds_noK_better": 7,
+        "wilcoxon_p": 0.083984375,
+        "paired_t_p": 0.04417191038852917,
+        "d_z": -0.7393090359692779,
+        "per_seed_noK": [
+          8.597064779213815,
+          10.017195759894223,
+          12.358425853233609,
+          9.289416750292354,
+          12.204902477717695,
+          6.816362545632627,
+          10.853505994721282,
+          11.67769745231592,
+          9.027379731810957,
+          9.248752884994305
+        ],
+        "per_seed_full": [
+          12.715915421819256,
+          10.208906042025022,
+          11.48488370762911,
+          13.133654444438019,
+          11.800438252018054,
+          11.13005738917762,
+          12.716354590948022,
+          9.418968798321739,
+          12.271506125628326,
+          13.457630303332545
+        ]
+      },
+      "iou": {
+        "label": "IoU",
+        "noK_mean": 0.7586054543538919,
+        "noK_sd": 0.007558435124970232,
+        "full_mean": 0.7513865494482619,
+        "full_sd": 0.006618315102689001,
+        "mean_diff_noK_minus_full": 0.00721890490563003,
+        "seeds_noK_better": 8,
+        "wilcoxon_p": 0.064453125,
+        "paired_t_p": 0.06582520790253993,
+        "d_z": 0.6619738516866229,
+        "per_seed_noK": [
+          0.7602687329749217,
+          0.7622883659229989,
+          0.7617483804985545,
+          0.7588211331241479,
+          0.7521379412530322,
+          0.7443161721464243,
+          0.753793348177785,
+          0.7670479716169057,
+          0.7553326574800693,
+          0.7702998403440804
+        ],
+        "per_seed_full": [
+          0.76292994440136,
+          0.7442608009924897,
+          0.7543316193595395,
+          0.7479189869560575,
+          0.7478532374034064,
+          0.7601038179078222,
+          0.7417977285962041,
+          0.7498202397811831,
+          0.7539189430354883,
+          0.7509301760490689
+        ]
+      },
+      "dice": {
+        "label": "Dice",
+        "noK_mean": 0.850755373578,
+        "noK_sd": 0.005677436623988207,
+        "full_mean": 0.8458399726087326,
+        "full_sd": 0.004548017270098248,
+        "mean_diff_noK_minus_full": 0.0049154009692674696,
+        "seeds_noK_better": 8,
+        "wilcoxon_p": 0.10546875,
+        "paired_t_p": 0.08472784660139852,
+        "d_z": 0.6125058593121726,
+        "per_seed_noK": [
+          0.8522199140954078,
+          0.8533921937950694,
+          0.853204006008704,
+          0.8504496078477606,
+          0.8469713249706877,
+          0.8389208393428725,
+          0.8474054940845802,
+          0.857197220223389,
+          0.8489932994088417,
+          0.858799836002687
+        ],
+        "per_seed_full": [
+          0.8539160479868014,
+          0.8405251137694398,
+          0.8474139474020668,
+          0.8434962019459625,
+          0.8428406404429112,
+          0.8518745679239584,
+          0.8400399853934237,
+          0.84493701382393,
+          0.8479907968211737,
+          0.8453654105776575
+        ]
+      },
+      "miss": {
+        "label": "Plume-miss",
+        "noK_mean": 0.22028236569788961,
+        "noK_sd": 0.00941800511379014,
+        "full_mean": 0.226189144781258,
+        "full_sd": 0.01013432896277063,
+        "mean_diff_noK_minus_full": -0.005906779083368396,
+        "seeds_noK_better": 7,
+        "wilcoxon_p": 0.130859375,
+        "paired_t_p": 0.0595482781962435,
+        "d_z": -0.6814769248940479,
+        "per_seed_noK": [
+          0.21550674034843492,
+          0.21995931894953408,
+          0.21579208083489582,
+          0.22401665009468444,
+          0.23347946827744073,
+          0.20723760317664017,
+          0.23484374904093114,
+          0.21719635189116027,
+          0.226304275720656,
+          0.20848741864451856
+        ],
+        "per_seed_full": [
+          0.21073342359363897,
+          0.21461019333648115,
+          0.2321379260483249,
+          0.2402143015783995,
+          0.23797455124187927,
+          0.21464759067514655,
+          0.2302239662531487,
+          0.2284804906342302,
+          0.2300082557627586,
+          0.22286074868857225
+        ]
+      }
+    }
+  }
+}

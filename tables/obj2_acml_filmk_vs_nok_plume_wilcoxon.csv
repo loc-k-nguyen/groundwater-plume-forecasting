@@ -1,0 +1,2 @@
+metric,noK_mean,film_mean,noK_better_seeds,wilcoxon_p
+plume_ssim,0.8326,0.8216,10/10,0.002

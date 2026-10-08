@@ -1,0 +1,4 @@
+sigma2Y,noK_IoU,full_IoU,noK_centroid,full_centroid,noK_mass,full_mass,IoU_better
+0.1,0.7042,0.6987,9.791,10.437,9028.1,9150.6,noK
+1.0,0.7762,0.7689,7.958,8.756,1740.5,1968.4,noK
+2.0,0.7964,0.7855,8.047,9.427,1601.9,1790.8,noK

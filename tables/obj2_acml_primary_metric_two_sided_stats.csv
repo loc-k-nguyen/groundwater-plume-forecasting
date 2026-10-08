@@ -1,0 +1,7 @@
+comparison,metric,n_seed_aligned,seeds,left_mean,right_mean,mean_difference,left_better_seed_count,wilcoxon_two_sided_p,t_two_sided_p,within_seed_cohens_d
+TA-ANP-noK vs TA-ANP-full,future_plume_ssim,10,0;1;2;3;4;5;6;7;8;9,0.8326382391,0.8079661122,0.0246721269,10,0.001953125,4.30957e-06,3.0923
+TA-ANP-noK vs TA-ANP-full,global_ssim,10,0;1;2;3;4;5;6;7;8;9,0.8943027152,0.8597025471,0.0346001681,10,0.001953125,9.35114e-06,2.8145
+TA-ANP-noK vs cross-attentive NP,future_plume_ssim,10,0;1;2;3;4;5;6;7;8;9,0.8326382391,0.7578748224,0.0747634167,10,0.001953125,3.71278e-07,4.1325
+TA-ANP-noK vs cross-attentive NP,global_ssim,10,0;1;2;3;4;5;6;7;8;9,0.8943027152,0.8228383775,0.0714643377,10,0.001953125,7.32526e-08,4.9848
+TA-ANP-full vs cross-attentive NP,future_plume_ssim,10,0;1;2;3;4;5;6;7;8;9,0.8079661122,0.7578748224,0.0500912898,10,0.001953125,3.11494e-05,2.4234
+TA-ANP-full vs cross-attentive NP,global_ssim,10,0;1;2;3;4;5;6;7;8;9,0.8597025471,0.8228383775,0.0368641696,10,0.001953125,2.8584e-05,2.4499

@@ -1,0 +1,8 @@
+metric,direction,noK_better_of_n_seeds,wilcoxon_signed_rank_p
+plume_iou,higher,7/10,0.0840
+plume_dice,higher,7/10,0.0840
+centroid_error_px,lower,7/10,0.3223
+mass_abs_error,lower,7/10,0.1602
+plume_miss_rate,lower,6/10,0.4922
+false_positive_area_px,lower,7/10,0.1309
+false_negative_area_px,lower,6/10,0.7695

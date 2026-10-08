@@ -1,0 +1,16 @@
+metric,status,reason,direction,unit,space,n_valid_seeds,mean,std,standard_error
+gt_roi_plume_ssim,blocked,Not recomputed in this pass; requires a dedicated SSIM/ROI pass over large arrays.,higher_is_better,ssim,log10_C,0,nan,nan,nan
+union_roi_plume_ssim,blocked,Not recomputed in this pass; requires a dedicated SSIM/ROI pass over large arrays.,higher_is_better,ssim,log10_C,0,nan,nan,nan
+plume_iou,computed,,higher_is_better,ratio,physical,10,0.7579045697350163,0.007868464134749552,0.0024882268353154623
+plume_dice,computed,,higher_is_better,ratio,physical,10,0.8508459699066622,0.005384896947506528,0.0017028539319408791
+plume_area_rel_error,computed,,lower_is_better,relative_error,physical,10,0.22637524852170676,0.008038564452791245,0.0025420172788885404
+false_positive_area_px,computed,,lower_is_better,pixels,physical,10,1701.436764705882,638.2203777598065,201.823004285406
+false_negative_area_px,computed,,lower_is_better,pixels,physical,10,20998.77823529412,1173.6069442589546,371.12710216485686
+false_positive_area_rel,computed,,lower_is_better,relative_to_gt_area,physical,10,0.018884620938788316,0.002755301898862416,0.0008713029641792133
+false_negative_area_rel,computed,,lower_is_better,relative_to_gt_area,physical,10,0.2266261681895157,0.009484165967846075,0.0029991566165448857
+plume_miss_rate,computed,,lower_is_better,ratio,physical,10,0.2266261681895157,0.009484165967846075,0.0029991566165448857
+centroid_error_px,computed,,lower_is_better,pixels,physical_weighted,10,8.636391446923014,1.5222937889643584,0.48139156410550676
+peak_concentration_abs_error,computed,,lower_is_better,concentration,physical,10,13.01320906988426,0.2695555078799408,0.08524093607440783
+extent_front_error_px,computed,,lower_is_better,pixels,physical_mask_bbox,10,20.381294117647055,1.5263974849320605,0.4826892667137855
+mass_abs_error,computed,,lower_is_better,integrated_concentration,physical,10,4263.694262615624,113.6610137681473,35.94276846711028
+mass_rel_error,computed,,lower_is_better,relative_error,physical,10,0.1965353549828927,0.01117063674450092,0.003532465502699129

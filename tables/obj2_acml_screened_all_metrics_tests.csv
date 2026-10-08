@@ -1,0 +1,15 @@
+regime,metric,nok_mean,full_mean,nok_better_seeds,wilcoxon_two_sided_p
+unscreened,plume_ssim,0.8326,0.808,10/10,0.001953
+unscreened,global_ssim,0.8943,0.8597,10/10,0.001953
+unscreened,centroid,8.6364,9.5864,7/10,0.322266
+unscreened,iou,0.7579,0.75,7/10,0.083984
+unscreened,dice,0.8508,0.8447,7/10,0.083984
+unscreened,miss,0.2266,0.2319,6/10,0.492188
+unscreened,mass_err,4263.6943,4440.6075,7/10,0.160156
+screened,plume_ssim,0.8331,0.8085,10/10,0.001953
+screened,global_ssim,0.8945,0.86,10/10,0.001953
+screened,centroid,8.5997,9.5497,7/10,0.322266
+screened,iou,0.7583,0.7504,7/10,0.083984
+screened,dice,0.8512,0.8451,7/10,0.083984
+screened,miss,0.2264,0.2317,6/10,0.492188
+screened,mass_err,1810.7877,1988.7769,7/10,0.160156

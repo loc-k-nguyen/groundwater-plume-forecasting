@@ -1,0 +1,68 @@
+{
+  "description": "TA-ANP values retain the ten-decimal precision in the released physical-metric table. NP values are copied from archived per-seed JSON outputs; raw outputs are not included.",
+  "ta_anp_source": "tables/obj2_ta_anp_10seed_physical_metrics.csv",
+  "np_sources": [
+    {
+      "family": "cross-attentive NP",
+      "seed": 0,
+      "source": "neuralprocess/seed0/metrics_future_plume.json",
+      "source_sha256": "9191db8bc64cf8409d816746341d93073fdf7f5ea65f02c0c2b6730d8f2f98ad"
+    },
+    {
+      "family": "cross-attentive NP",
+      "seed": 1,
+      "source": "neuralprocess/seed1/metrics_future_plume.json",
+      "source_sha256": "f40b7c8dd1b03c020d60c2dcabb5187994f3a763e9337cfac28cfdedbde64055"
+    },
+    {
+      "family": "cross-attentive NP",
+      "seed": 2,
+      "source": "neuralprocess/seed2/metrics_future_plume.json",
+      "source_sha256": "670f12d61f19343cbbf511120a72a4652531eb0342133bc16b2c713fe339c732"
+    },
+    {
+      "family": "cross-attentive NP",
+      "seed": 3,
+      "source": "neuralprocess/seed3/metrics_future_plume.json",
+      "source_sha256": "15925052df4135f9ee61138d1418dfd028b5a2c0420d430fadf3716f36af1598"
+    },
+    {
+      "family": "cross-attentive NP",
+      "seed": 4,
+      "source": "neuralprocess/seed4/metrics_future_plume.json",
+      "source_sha256": "21f17a047d03eb7fc797be9981c7b67527f38b6127abf47fad86bb33ab9a72c9"
+    },
+    {
+      "family": "cross-attentive NP",
+      "seed": 5,
+      "source": "neuralprocess/seed5/metrics_future_plume.json",
+      "source_sha256": "85d0528abdbdf675f27762acff977a4fd5b0cab52f23f3fcba3f5b1ba8adcb5b"
+    },
+    {
+      "family": "cross-attentive NP",
+      "seed": 6,
+      "source": "neuralprocess/seed6/metrics_future_plume.json",
+      "source_sha256": "942fa20ecb2934df18df516deb2c61d74e0eda086c8c7b0e0afd4a54913487c3"
+    },
+    {
+      "family": "cross-attentive NP",
+      "seed": 7,
+      "source": "neuralprocess/seed7/metrics_future_plume.json",
+      "source_sha256": "ccdf70b42fdcff8c639fa720f6e6fbc1f452cf51352cbcf65977128dd8fbc792"
+    },
+    {
+      "family": "cross-attentive NP",
+      "seed": 8,
+      "source": "neuralprocess/seed8/metrics_future_plume.json",
+      "source_sha256": "3bfea7f1a0a70f4e9e6f4b563b82d81a7b1a256a4a1f95ca6334faccb27de14b"
+    },
+    {
+      "family": "cross-attentive NP",
+      "seed": 9,
+      "source": "neuralprocess/seed9/metrics_future_plume.json",
+      "source_sha256": "963214747d8ba748623d8e6b8bbc549a48e5d0e2e8454474629ddf22901f7a74"
+    }
+  ],
+  "alternative": "two-sided",
+  "unit": "training seed mean under one fixed split"
+}

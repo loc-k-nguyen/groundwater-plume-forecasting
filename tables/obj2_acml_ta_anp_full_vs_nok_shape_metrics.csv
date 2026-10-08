@@ -1,0 +1,12 @@
+# source_full_cache,experiments/obj2/journal/predictions/ta_anp_full/seed*/pred_future.npz
+# source_evaluator,experiments/obj2/journal/scripts/compute_ta_anp_nok_shape_metrics.py (imported)
+# source_nok_summary,experiments/obj2/journal/reports/tables/obj2_ta_anp_no_k_shape_metrics_summary_2026-05-16.csv
+# date_generated,2026-05-30
+metric,direction,noK_mean,noK_std,full_mean,full_std,winner
+plume_iou,higher,0.757905,0.007868464134749552,0.749965,0.010581,noK
+plume_dice,higher,0.850846,0.005384896947506528,0.844717,0.007529,noK
+centroid_error_px,lower,8.636391,1.5222937889643584,9.586370,1.635029,noK
+mass_abs_error,lower,4263.694263,113.6610137681473,4440.607484,324.160720,noK
+plume_miss_rate,lower,0.226626,0.009484165967846075,0.231905,0.012710,noK
+false_positive_area_px,lower,1701.436765,638.2203777598065,2453.740353,1084.672543,noK
+false_negative_area_px,lower,20998.778235,1173.6069442589546,21120.501706,1053.617264,noK

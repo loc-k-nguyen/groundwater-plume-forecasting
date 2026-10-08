@@ -1,0 +1,8 @@
+model,inference_inputs,training_targets_inclusive,validation_targets_inclusive,test_targets_inclusive,inference
+TA-ANP-noK,C[0:14]; query time,15:24,15:24,15:24,full field
+TA-ANP-full / FiLM-K,C[0:14]; K; query time,15:24,15:24,15:24,full field
+cross-attentive NP,C[0:14]; K; query time,15:24,15:24,15:24,full field
+EarthformerLite,C[0:14]; K; query time,15:24,15:24,15:24,full field
+ACDiff,K; query time; history-derived flow features,0:14,0:14,15:24,overlapping 320x320 patches; stride 160
+DyDiff,K; query time,0:14,0:14,15:24,overlapping 320x320 patches; stride 160
+cCGAN-K (both gamma settings),K; query time,0:14,0:14,15:24,overlapping 320x320 patches; stride 160
