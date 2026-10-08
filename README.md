@@ -1,8 +1,16 @@
 # Groundwater plume forecasting with TA-ANP
 
+[![CPU reproducibility checks](https://github.com/LocNguyen122/groundwater-plume-forecasting/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/LocNguyen122/groundwater-plume-forecasting/actions/workflows/ci.yml)
+
+[Reproduction guide](REPRODUCE.md) · [Evidence mapping](docs/PAPER_MAPPING.md) · [Citation](CITATION.cff) · [Latest CPU checks](https://github.com/LocNguyen122/groundwater-plume-forecasting/actions/workflows/ci.yml)
+
 Code and source-traceable summaries for **Observation-Conditioned Temporal Attentive Neural Processes for Long-Horizon Groundwater Plume Forecasting**, by Loc K. Nguyen and Binh P. Nguyen.
 
 The paper was conditionally accepted to the ACML 2026 Journal Track. Formal acceptance by *Machine Learning* remains conditional on the conference presentation and completion of the final-manuscript requirements. This private repository is a preparation snapshot, with no final software tag or publication DOI.
+
+![Research overview showing observed and forecast snapshots, the inference model, ten-seed plume SSIM and scientific limitations](figures/research_overview.png)
+
+The overview uses the archived ten-seed results. Dots represent runs, paired lines join matching seed IDs, and diamonds with error bars show means and sample standard deviations. The SSIM axis displays 0.78–0.85. The schematic summarizes inference; it does not depict a new experiment or certify independent-geology transfer. [Figure sources and interpretation](docs/FIGURES.md).
 
 ## Research question
 
@@ -27,10 +35,27 @@ python scripts/validate_release_artifacts.py
 python scripts/verify_revision_evidence.py
 python scripts/reproduce_summaries.py --out-dir outputs/reproduction
 python scripts/make_figures.py --out_dir outputs/reproduction/figures
+python scripts/make_research_overview.py --out-dir outputs/reproduction/overview
 python scripts/build_manifest.py --check
 ```
 
-On Windows, activate with `.venv\Scripts\Activate.ps1`. These commands parse sources, check the manifest and evidence, run small synthetic CPU forward passes, recompute six seed-aligned tests and grouped-split statistics, aggregate archived diagnostic summaries, and regenerate two aggregate plots. They do not train a model.
+On Windows, activate with `.venv\Scripts\Activate.ps1`. These commands parse sources, check the manifest and evidence, run small synthetic CPU forward passes, recompute six seed-aligned tests and grouped-split statistics, aggregate archived diagnostic summaries, and regenerate two aggregate plots and the research overview. They do not train a model.
+
+## Where to see passing checks
+
+Open the repository's **Actions** tab, select **CPU reproducibility checks**, and open a completed run. Its Summary shows the conclusion; the **verify** job contains the individual commands and logs. The verification summary records the tested commit and the data-free checks completed for that run. Green checks certify these CPU checks, not restricted-data training or journal acceptance.
+
+The badge links directly to the workflow. Because the repository is private, sign in to the authorized GitHub account; its status badge cannot be embedded on an external CV or website. Use the authenticated workflow link if an external preview does not show the badge.
+
+## Diagnostic figures
+
+![Per-horizon plume overlap, centroid displacement, summed-concentration error and false positive/negative area](figures/fig_horizon_curves.png)
+
+Forecast-step diagnostics for TA-ANP-noK. Shaded bands show the standard deviation across seeds. These plots expose changes in overlap, location, summed concentration and detection errors as the horizon grows; the summed-concentration diagnostic is not a conservative mass-balance residual.
+
+![Global SSIM compared with centroid displacement error on the common test set](figures/fig_paradox_scatter.png)
+
+Global SSIM and centroid error describe different aspects of forecast quality. A static reference can score well on global similarity while missing plume movement. Reference models have different input regimes and training-target windows, so this figure does not isolate the effect of history. See the [figure catalog](docs/FIGURES.md) for source artifacts, seed accounting and limitations.
 
 ## What is reproducible here
 

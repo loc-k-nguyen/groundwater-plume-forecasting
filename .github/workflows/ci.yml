@@ -42,4 +42,34 @@ jobs:
         run: |
           python scripts/reproduce_summaries.py --out-dir outputs/reproduction
           python scripts/make_figures.py --out_dir outputs/reproduction/figures
+          python scripts/make_research_overview.py --out-dir outputs/reproduction/overview
           python scripts/build_manifest.py --check
+      - name: Write verification summary
+        run: |
+          python - <<'PY'
+          import os
+          from pathlib import Path
+          import unittest
+          loader = unittest.TestLoader()
+          count = loader.discover('tests').countTestCases()
+          assert not loader.errors, loader.errors
+          commit = os.environ['GITHUB_SHA']
+          text = f'''## CPU reproducibility checks passed
+
+          Tested commit: `{commit}`
+
+          | Verification | Result |
+          |---|---|
+          | CPU regression suite | {count} tests passed |
+          | Source parsing, release scope and immutable evidence | Passed |
+          | Saved SHA-256 manifest | Passed |
+          | Six primary statistical comparisons | Recomputed and matched |
+          | Eight CLI entry points | Passed |
+          | Grouped statistics and diagnostic summaries | Reproduced |
+          | Aggregate plots and research overview | Rendered on CPU |
+
+          Scope: data-free verification. No model training, restricted-data evaluation or GPU workload.
+          '''
+          with Path(os.environ['GITHUB_STEP_SUMMARY']).open('a', encoding='utf-8') as handle:
+              handle.write(text)
+          PY

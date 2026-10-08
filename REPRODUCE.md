@@ -11,6 +11,7 @@ python scripts/validate_release_artifacts.py
 python scripts/verify_revision_evidence.py
 python scripts/reproduce_summaries.py --out-dir outputs/reproduction
 python scripts/make_figures.py --out_dir outputs/reproduction/figures
+python scripts/make_research_overview.py --out-dir outputs/reproduction/overview
 python scripts/build_manifest.py --check
 ```
 
