@@ -1,8 +1,8 @@
 # Groundwater plume forecasting with TA-ANP
 
-[![CPU reproducibility checks](https://github.com/LocNguyen122/groundwater-plume-forecasting/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/LocNguyen122/groundwater-plume-forecasting/actions/workflows/ci.yml)
+[![CPU reproducibility checks](https://github.com/loc-k-nguyen/groundwater-plume-forecasting/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/loc-k-nguyen/groundwater-plume-forecasting/actions/workflows/ci.yml)
 
-[Reproduction guide](REPRODUCE.md) · [Evidence mapping](docs/PAPER_MAPPING.md) · [Citation](CITATION.cff) · [Latest CPU checks](https://github.com/LocNguyen122/groundwater-plume-forecasting/actions/workflows/ci.yml)
+[Reproduction guide](REPRODUCE.md) · [Evidence mapping](docs/PAPER_MAPPING.md) · [Citation](CITATION.cff) · [Latest CPU checks](https://github.com/loc-k-nguyen/groundwater-plume-forecasting/actions/workflows/ci.yml)
 
 Code and source-traceable summaries for **Observation-Conditioned Temporal Attentive Neural Processes for Long-Horizon Groundwater Plume Forecasting**, by Loc K. Nguyen and Binh P. Nguyen.
 

@@ -5,7 +5,7 @@ title: "Groundwater plume forecasting with TA-ANP"
 authors:
   - family-names: "Nguyen"
     given-names: "Loc K."
-repository-code: "https://github.com/LocNguyen122/groundwater-plume-forecasting"
+repository-code: "https://github.com/loc-k-nguyen/groundwater-plume-forecasting"
 license: MIT
 abstract: "Paper-scoped forecasting code, lightweight numerical evidence, and CPU verification. The associated ACML 2026 Journal Track manuscript is conditionally accepted; formal journal acceptance and publication metadata remain pending."
 preferred-citation:
