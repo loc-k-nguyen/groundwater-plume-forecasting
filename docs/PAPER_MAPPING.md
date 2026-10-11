@@ -1,6 +1,6 @@
 # Manuscript and code mapping
 
-The last submission identified in local records is manuscript v14b. Manuscript v15 is the October 3 correction draft; v16 is the October 8 conditional camera-ready preparation. Neither local draft is evidence of a portal upload. Software snapshot identifiers are separate from these manuscript versions, and a final software tag is intentionally absent.
+The actual last-uploaded manuscript version has not been verified against the submission portal. Historical handoffs identify v14b; whether v15 was subsequently uploaded remains unconfirmed. Manuscript v15 is the October 3 correction draft; v16 was prepared on October 8 and checked in place on October 11 for the final manuscript after conditional acceptance. Local source versions are not evidence of a portal upload. `manuscript_snapshot.json` identifies the current rendered article and Supplementary by their hashes. Software snapshot identifiers are separate from manuscript versions, and a final software tag is intentionally absent.
 
 ## Evidence mapping
 
