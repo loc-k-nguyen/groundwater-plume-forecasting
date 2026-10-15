@@ -164,14 +164,16 @@
   {
     "path": "scripts/make_figures.py",
     "source_sha256": "155609050c071661e2ce31b69128ca7f031ae9d2d8632ac0b66cd90295d74cdc",
-    "copied_sha256": "155609050c071661e2ce31b69128ca7f031ae9d2d8632ac0b66cd90295d74cdc",
-    "origin": "candidate_v7"
+    "copied_sha256": "c921d0d3d3464578890d2df21c7b0941938856fa12addbaa74020c0a9828c2cb",
+    "origin": "candidate_v7",
+    "release_change": "2026-10-15: protect released directories and default to ignored outputs; plot calculations and archived evidence unchanged"
   },
   {
     "path": "scripts/paired_significance_tests.py",
     "source_sha256": "6d95768a2f4f534c0de8e56cf1a19df00d66e57fea9ec9a277d4cdc43e14f1a8",
-    "copied_sha256": "6d95768a2f4f534c0de8e56cf1a19df00d66e57fea9ec9a277d4cdc43e14f1a8",
-    "origin": "candidate_v7"
+    "copied_sha256": "012ac26f46acfd77100487646783e3ee840a12e1ebf0bbc4091c97c896ac5b8c",
+    "origin": "candidate_v7",
+    "release_change": "2026-10-15: reject duplicate, unmatched and nonfinite seed values; formulas for valid inputs and archived evidence unchanged"
   },
   {
     "path": "scripts/run_naive_baselines.py",

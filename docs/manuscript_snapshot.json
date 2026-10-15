@@ -2,21 +2,27 @@
   "preparation_date": "2026-10-08",
   "title": "Observation-Conditioned Temporal Attentive Neural Processes for Long-Horizon Groundwater Plume Forecasting",
   "status": "Conditional acceptance to ACML 2026 Journal Track; formal journal acceptance pending presentation and final manuscript process",
-  "manuscript_version": "v16 final-manuscript preparation after conditional acceptance; no verified portal upload",
+  "manuscript_version": "v15 current local draft, incorporating former v16 edits on 2026-10-12; no verified portal upload",
   "last_submission_identified_in_local_records": "Historical handoff names v14b; actual portal version, including whether v15 was uploaded, remains unverified",
   "article": {
-    "sha256": "970d274f7193937e7abe2eb1e39e801e848d3df1dc9ae85f4c4684c60d3bfc16",
-    "pages": 20
+    "sha256": "93eb824257add01d3d5dc393aaeea8fe9a845c2bfe0c0cca08007baf1d721bac",
+    "pages": 20,
+    "source_sha256": "2015b35edc7ec91c1c1124b1483978625275315eab5eb56b68e44d4b97be4674"
   },
   "supplementary": {
-    "sha256": "f409ba61892c7458e8dcd6b7adde334ff4e1f40b42afbc203b09007d4baea365",
-    "pages": 15
+    "sha256": "988859b90b0c9812e99406158617dfdfb7fe39b4d6ef6661a349c726302a7715",
+    "pages": 15,
+    "source_sha256": "0a5b85a265522fee0aa2a77351d8ad2e2dadae1e4e5ce61c9dbdb8f5869480d6"
   },
   "bibliography": {
     "sha256": "92cd5c6afe3872bf4b8e7a28558b80ba97d83ec4c446d1bab781ab4c0ce432b2",
     "entries": 22
   },
   "scope": "Archived accepted-paper evidence; conductivity twins limit transfer to independent geology. Later journal extension and independent-geology experiments excluded.",
-  "final_release_tag": null,
-  "last_checked": "2026-10-11"
+  "final_release_tag": "acml-v15-2026-10-15-r1",
+  "historical_preparation_pdf_hashes": {
+    "article": "970d274f7193937e7abe2eb1e39e801e848d3df1dc9ae85f4c4684c60d3bfc16",
+    "supplementary": "f409ba61892c7458e8dcd6b7adde334ff4e1f40b42afbc203b09007d4baea365"
+  },
+  "last_checked": "2026-10-15"
 }

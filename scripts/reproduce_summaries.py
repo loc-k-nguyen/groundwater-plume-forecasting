@@ -5,11 +5,14 @@ import argparse
 import csv
 import json
 from pathlib import Path
+import sys
 
 import numpy as np
 from scipy.stats import ttest_rel, wilcoxon
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+from scripts.release_paths import safe_output_directory
 
 def csv_rows(path: Path) -> list[dict[str, str]]:
     with path.open(encoding='utf-8-sig', newline='') as handle:
@@ -60,9 +63,7 @@ def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--out-dir', type=Path, required=True)
     args = parser.parse_args()
-    out = args.out_dir.resolve()
-    for protected in ['tables', 'metadata', 'configs', 'src', 'scripts', 'docs', 'tests', 'figures']:
-        assert out != ROOT/protected and ROOT/protected not in out.parents, 'Refusing to overwrite released sources'
+    out = safe_output_directory(ROOT, args.out_dir)
     result = build()
     out.mkdir(parents=True, exist_ok=True)
     (out/'paper_summary_checks.json').write_text(json.dumps(result, indent=2)+'\n', encoding='utf-8')

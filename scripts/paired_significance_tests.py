@@ -34,7 +34,12 @@ def load_values(path: str, seed_col: str, value_col: str) -> dict[int, float]:
         for row in csv.DictReader(handle):
             if row.get(seed_col, "") == "" or row.get(value_col, "") == "":
                 continue
-            values[int(row[seed_col])] = float(row[value_col])
+            seed, value = int(row[seed_col]), float(row[value_col])
+            if seed in values:
+                raise ValueError(f'Duplicate seed {seed} in metric table')
+            if not np.isfinite(value):
+                raise ValueError(f'Non-finite metric for seed {seed}')
+            values[seed] = value
     return values
 
 
@@ -43,12 +48,16 @@ def compute_statistics(
     right: dict[int, float],
     alternative: str,
 ) -> dict[str, object]:
-    seeds = sorted(set(left) & set(right))
+    if set(left) != set(right):
+        raise ValueError('Paired metric tables must contain the same seed IDs')
+    seeds = sorted(left)
     if len(seeds) < 2:
         raise ValueError("At least two seed-aligned observations are required.")
 
     x = np.asarray([left[s] for s in seeds], dtype=np.float64)
     y = np.asarray([right[s] for s in seeds], dtype=np.float64)
+    if not (np.isfinite(x).all() and np.isfinite(y).all()):
+        raise ValueError('Paired metrics must be finite')
     diff = x - y
     wilcoxon_requested = wilcoxon(diff, alternative=alternative)
     wilcoxon_two_sided = wilcoxon(diff, alternative="two-sided")

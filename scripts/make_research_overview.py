@@ -4,6 +4,7 @@ from __future__ import annotations
 import argparse
 import csv
 from pathlib import Path
+import sys
 
 import matplotlib
 
@@ -13,6 +14,8 @@ from matplotlib.patches import FancyArrowPatch, FancyBboxPatch
 import numpy as np
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+from scripts.release_paths import safe_output_directory
 INK = '#182d44'
 MUTED = '#536579'
 TEAL = '#087f86'
@@ -31,11 +34,7 @@ def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--out-dir', type=Path, default=ROOT/'outputs/overview')
     args = parser.parse_args()
-    output = args.out_dir.resolve()
-    for directory in ['tables', 'metadata', 'configs', 'src', 'scripts', 'docs', 'tests']:
-        protected = ROOT/directory
-        if output == protected or protected in output.parents:
-            raise ValueError('Refusing to write into release source or evidence directories')
+    output = safe_output_directory(ROOT, args.out_dir)
     with (ROOT/'tables/primary_metric_per_seed.csv').open(newline='', encoding='utf-8-sig') as handle:
         rows = list(csv.DictReader(handle))
     names = ['TA-ANP-full', 'TA-ANP-noK']

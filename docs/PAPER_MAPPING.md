@@ -1,6 +1,6 @@
 # Manuscript and code mapping
 
-The actual last-uploaded manuscript version has not been verified against the submission portal. Historical handoffs identify v14b; whether v15 was subsequently uploaded remains unconfirmed. Manuscript v15 is the October 3 correction draft; v16 was prepared on October 8 and checked in place on October 11 for the final manuscript after conditional acceptance. Local source versions are not evidence of a portal upload. `manuscript_snapshot.json` identifies the current rendered article and Supplementary by their hashes. Software snapshot identifiers are separate from manuscript versions, and a final software tag is intentionally absent.
+The current local manuscript is v15. The former v16 corrections were merged into v15 on October 12, 2026; v16 is no longer a separate active draft. The actual last-uploaded version has not been verified against the submission portal. Historical handoffs identify v14b; whether v15 was subsequently uploaded remains unconfirmed. Local source versions are not evidence of a portal upload. `manuscript_snapshot.json` identifies the article and Supplementary by their hashes. Software snapshot identifiers are separate from manuscript versions; this package uses tag `acml-v15-2026-10-15-r1`.
 
 ## Evidence mapping
 
@@ -19,6 +19,6 @@ The actual last-uploaded manuscript version has not been verified against the su
 
 Main-split evaluation contains 170 test realizations; the grouped split contains 180. The grouped split is byte-disjoint, not statistically independent. Nominal identifiers remain intact and do not certify the generating parameters of the exceptional rerun. Later independent-geology campaigns and research extensions are excluded.
 
-The fixed-split definition, model code and source metrics are preserved. New preparation code checks and aggregates those artifacts without altering validated numerical sources. `docs/source_snapshot.json` records source and copied SHA-256 values, with restricted-field transformations explicitly listed. `MANIFEST.csv` covers the final included file set. No raw field, simulator setup or checkpoint is licensed or redistributed.
+The fixed-split definition, model code and source metrics are preserved. Release tooling checks and aggregates those artifacts without altering validated numerical sources. `docs/source_snapshot.json` records source and copied SHA-256 values, including transformations and the two documented CLI safety changes. `MANIFEST.csv` covers the final included file set. No raw field, simulator setup or checkpoint is licensed or redistributed.
 
-The included configuration files are representative archived settings, not a claim to include every seed's full executable launch environment. Summary checks do not replace cache-level or retraining reproduction. Formal acceptance, final reference metadata and a public code URL must be reconciled with the authors' final portal version before tagging.
+The included configuration files are representative archived settings, not a claim to include every seed's full executable launch environment. Summary checks do not replace cache-level or retraining reproduction. Software tagging does not resolve formal acceptance, publication metadata or the authors' final portal version.

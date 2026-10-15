@@ -1,12 +1,14 @@
 # Groundwater plume forecasting with TA-ANP
 
 [![CPU reproducibility checks](https://github.com/loc-k-nguyen/groundwater-plume-forecasting/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/loc-k-nguyen/groundwater-plume-forecasting/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Python 3.9](https://img.shields.io/badge/Python-3.9-3776AB.svg)](REPRODUCE.md)
 
-[Reproduction guide](REPRODUCE.md) · [Evidence mapping](docs/PAPER_MAPPING.md) · [Citation](CITATION.cff) · [Latest CPU checks](https://github.com/loc-k-nguyen/groundwater-plume-forecasting/actions/workflows/ci.yml)
+[Reproduction guide](REPRODUCE.md) · [Evidence mapping](docs/PAPER_MAPPING.md) · [Software guide](docs/SOFTWARE_GUIDE.md) · [Citation](CITATION.cff)
 
 Code and source-traceable summaries for **Observation-Conditioned Temporal Attentive Neural Processes for Long-Horizon Groundwater Plume Forecasting**, by Loc K. Nguyen and Binh P. Nguyen.
 
-The paper was conditionally accepted to the ACML 2026 Journal Track. Formal acceptance by *Machine Learning* remains conditional on the conference presentation and completion of the final-manuscript requirements. This private repository is a preparation snapshot, with no final software tag or publication DOI.
+The paper was conditionally accepted to the ACML 2026 Journal Track. Formal acceptance by *Machine Learning* remains conditional on the conference presentation and completion of the final-manuscript requirements. Software version `acml-v15-2026-10-15-r1` corresponds to the current local v15 article and Supplementary. A software release is not evidence of a manuscript upload or final journal publication.
 
 ![Research overview showing observed and forecast snapshots, the inference model, ten-seed plume SSIM and scientific limitations](figures/research_overview.png)
 
@@ -19,6 +21,18 @@ Can a dense observed concentration history forecast later plume fields, and how 
 The protocol observes `C[0]` through `C[14]` (days 1–75) and predicts `C[15]` through `C[24]` (days 90–365). Future targets supervise training configurations. Future snapshots of an evaluated realization are excluded from inference inputs. This is forecasting beyond observed context, not extrapolation beyond the training target-time range.
 
 Across ten seeds on the fixed split, the paper reports plume SSIM of `0.833 ± 0.005` for noK and `0.808 ± 0.008` for full. These results apply to the studied synthetic design. They do not establish that conductivity is physically unimportant, that sparse observations suffice, or that independent geology has been tested.
+
+## Software at a glance
+
+The package connects PyTorch forecasting models, plume-aware evaluation, seed-aligned statistical analysis and artifact-level provenance checks. Data-free tests exercise inference shapes, noK input invariance, CLI behavior, evidence integrity and output safety. Archived tables and aggregate figures are available for inspection without simulator fields.
+
+| Start here | Purpose |
+|---|---|
+| [Reproduction guide](REPRODUCE.md) | Run CPU verification and rebuild summaries |
+| [Software guide](docs/SOFTWARE_GUIDE.md) | Find models, evaluation tools and extension boundaries |
+| [Paper mapping](docs/PAPER_MAPPING.md) | Trace manuscript claims to code and evidence |
+| [Figure catalog](docs/FIGURES.md) | Understand the plots and their statistical units |
+| [Security and restricted inputs](SECURITY.md) | Handle private data and trusted checkpoints |
 
 ## Quick start without the simulation data
 
@@ -45,7 +59,7 @@ On Windows, activate with `.venv\Scripts\Activate.ps1`. These commands parse sou
 
 Open the repository's **Actions** tab, select **CPU reproducibility checks**, and open a completed run. Its Summary shows the conclusion; the **verify** job contains the individual commands and logs. The verification summary records the tested commit and the data-free checks completed for that run. Green checks certify these CPU checks, not restricted-data training or journal acceptance.
 
-The badge links directly to the workflow. Because the repository is private, sign in to the authorized GitHub account; its status badge cannot be embedded on an external CV or website. Use the authenticated workflow link if an external preview does not show the badge.
+The badge refers to the remote default-branch workflow. Match the tested commit to the version you use; a later default-branch check may concern different code. For a paper or portfolio, link to [the fixed software version](https://github.com/loc-k-nguyen/groundwater-plume-forecasting/tree/acml-v15-2026-10-15-r1) as well as the repository overview.
 
 ## Diagnostic figures
 
@@ -86,4 +100,4 @@ Raw simulation fields, simulator assets and launch commands, checkpoints, full p
 
 [CITATION.cff](CITATION.cff) describes the software and the associated unpublished manuscript without inventing a DOI, volume, pages or final acceptance. Paper author credit is distinct from software contribution credit.
 
-Original study code is provided under the requested [MIT license](LICENSE); the candidate snapshot's existing BSD notice is retained in [docs/LICENSE-BSD-3-Clause-original.txt](docs/LICENSE-BSD-3-Clause-original.txt). Upstream libraries keep their own licenses. Neither license grants rights to excluded data or simulator assets. Copyright and source-origin confirmation remains a gate before public release.
+Original study code is distributed under the owner-authorized [MIT license](LICENSE); the original BSD notice is retained in [docs/LICENSE-BSD-3-Clause-original.txt](docs/LICENSE-BSD-3-Clause-original.txt). Upstream libraries keep their own licenses. Neither license grants rights to excluded data or simulator assets. See [the changelog](CHANGELOG.md) for the bounded tooling changes.

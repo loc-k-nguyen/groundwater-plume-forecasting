@@ -17,6 +17,7 @@ import argparse
 import csv
 import json
 from pathlib import Path
+import sys
 
 import matplotlib
 
@@ -25,6 +26,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+from scripts.release_paths import safe_output_directory
 DEFAULT_TS_CSV = ROOT / "tables/obj2_ta_anp_no_k_shape_metrics_by_timestep.csv"
 DEFAULT_MB_CSV = ROOT / "tables/obj2_acml_final_10seed_matched_baseline_metrics.csv"
 DEFAULT_LAST_OBS_JSON = ROOT / "tables/last_observation_seed0_diagnostic_metrics_summary.json"
@@ -35,7 +38,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--horizon_csv", type=Path, default=DEFAULT_TS_CSV)
     parser.add_argument("--matched_baseline_csv", type=Path, default=DEFAULT_MB_CSV)
     parser.add_argument("--last_observation_json", type=Path, default=DEFAULT_LAST_OBS_JSON)
-    parser.add_argument("--out_dir", type=Path, default=ROOT / "figures")
+    parser.add_argument("--out_dir", type=Path, default=ROOT / "outputs/figures")
     return parser.parse_args()
 
 
@@ -182,6 +185,7 @@ def fig_paradox(matched_csv: Path, last_observation_json: Path, out_dir: Path) -
 
 if __name__ == "__main__":
     args = parse_args()
+    args.out_dir = safe_output_directory(ROOT, args.out_dir)
     args.out_dir.mkdir(parents=True, exist_ok=True)
     fig_horizon(args.horizon_csv, args.out_dir)
     fig_paradox(args.matched_baseline_csv, args.last_observation_json, args.out_dir)
